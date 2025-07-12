@@ -44,16 +44,19 @@
         delete {
             bindings = <&lt 5 ENTER>;
             key-positions = <60 59>;
+            layers = <0>;
         };
 
         layerchange3+shifttab {
             bindings = <&lt 2 DEL>;
             key-positions = <56 57>;
+            layers = <0>;
         };
 
         Gaminglayer10 {
             bindings = <&tog 10>;
             key-positions = <60 59 57 56>;
+            layers = <0>;
         };
     };
 
@@ -73,7 +76,7 @@
             display-name = "LAYER0";
         };
 
-        layer_1 {
+        layer_1-numnavmouse {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -83,7 +86,7 @@
             >;
         };
 
-        layer_2 {
+        layer_2funmedia {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
