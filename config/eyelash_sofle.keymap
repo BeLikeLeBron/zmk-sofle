@@ -41,21 +41,21 @@
     combos {
         compatible = "zmk,combos";
 
-        delete {
+        layer5+delete {
             bindings = <&lt 5 ENTER>;
-            key-positions = <60 59>;
+            key-positions = <60 61>;
             layers = <0>;
         };
 
-        layerchange3+shifttab {
+        layer2+shifttab {
             bindings = <&lt 2 DEL>;
-            key-positions = <56 57>;
+            key-positions = <56 55>;
             layers = <0>;
         };
 
         Gaminglayer10 {
             bindings = <&tog 10>;
-            key-positions = <60 59 57 56>;
+            key-positions = <60 56 61 55>;
             layers = <0>;
         };
     };
