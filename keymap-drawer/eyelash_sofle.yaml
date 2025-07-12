@@ -847,8 +847,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [60, 59]
-  k: {t: '$$mdi:backspace-reverse-outline$$', h: '5'}
+  k: {t: '$$mdi:keyboard-return$$', h: '5'}
 - p: [56, 57]
-  k: {t: '$$mdi:keyboard-tab-reverse$$', h: '2'}
-- p: [63, 62]
+  k: {t: '$$mdi:backspace-reverse-outline$$', h: '2'}
+- p: [60, 59, 57, 56]
   k: {t: '10', h: toggle}
