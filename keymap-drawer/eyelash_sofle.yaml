@@ -186,9 +186,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -385,9 +385,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '6':
@@ -846,12 +846,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [60, 59]
+- p: [60, 61]
   k: {t: '$$mdi:keyboard-return$$', h: '5'}
   l: [LAYER0]
-- p: [56, 57]
+- p: [56, 55]
   k: {t: '$$mdi:backspace-reverse-outline$$', h: 2funmedia}
   l: [LAYER0]
-- p: [60, 59, 57, 56]
+- p: [60, 56, 61, 55]
   k: {t: '10', h: toggle}
   l: [LAYER0]
