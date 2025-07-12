@@ -65,7 +65,7 @@ layers:
   - OGSofle-layer_2
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
-  '1':
+  1-numnavmouse:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '2':
+  2funmedia:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -848,7 +848,10 @@ layers:
 combos:
 - p: [60, 59]
   k: {t: '$$mdi:keyboard-return$$', h: '5'}
+  l: [LAYER0]
 - p: [56, 57]
-  k: {t: '$$mdi:backspace-reverse-outline$$', h: '2'}
+  k: {t: '$$mdi:backspace-reverse-outline$$', h: 2funmedia}
+  l: [LAYER0]
 - p: [60, 59, 57, 56]
   k: {t: '10', h: toggle}
+  l: [LAYER0]
