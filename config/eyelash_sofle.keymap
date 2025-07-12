@@ -96,7 +96,7 @@
             >;
         };
 
-        layer_3 {
+        layer_3d2Sym+hotkeys+Rightnum {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
