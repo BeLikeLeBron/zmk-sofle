@@ -42,18 +42,18 @@
         compatible = "zmk,combos";
 
         delete {
-            bindings = <&lt 5 DEL>;
+            bindings = <&lt 5 ENTER>;
             key-positions = <60 59>;
         };
 
         layerchange3+shifttab {
-            bindings = <&lt 2 LS(TAB)>;
+            bindings = <&lt 2 DEL>;
             key-positions = <56 57>;
         };
 
         Gaminglayer10 {
             bindings = <&tog 10>;
-            key-positions = <63 62>;
+            key-positions = <60 59 57 56>;
         };
     };
 
