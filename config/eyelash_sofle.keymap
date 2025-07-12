@@ -60,7 +60,7 @@
         };
 
         command+ctrl {
-            bindings = <&mt LEFT_GUI LCTRL>;
+            bindings = <&kp LS(LA(LC(LG(LCTRL))))>;
             key-positions = <57 56>;
         };
     };
