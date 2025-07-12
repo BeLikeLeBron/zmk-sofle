@@ -111,7 +111,7 @@
             >;
         };
 
-        layer_4 {
+        layer_4OSbuttonsbrightnessetc {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
