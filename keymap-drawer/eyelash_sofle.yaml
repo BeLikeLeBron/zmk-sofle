@@ -162,7 +162,7 @@ layers:
   - F4
   - F5
   - F6
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '[', s: '{'}
   - {t: '$$mdi:transfer$$', type: trans}
   - EP TOG
   - $$mdi:skip-previous$$
@@ -175,7 +175,7 @@ layers:
   - F1
   - F2
   - F3
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -193,7 +193,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - PLAY PAUSE
   - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - STOP
   - {t: '$$mdi:transfer$$', type: trans}
   3Sym+Rightnum:
   - {t: '$$mdi:transfer$$', type: trans}
