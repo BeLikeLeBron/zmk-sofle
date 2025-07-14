@@ -151,12 +151,12 @@ layers:
   - F9
   - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
+  - RGB TOG
+  - RGB EFF
+  - RGB HUI
+  - RGB BRI
+  - RGB COLOR HSB(0,89,49)
+  - RGB COLOR HSB(217,91,52)
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - F11
   - F4
