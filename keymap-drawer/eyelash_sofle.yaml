@@ -139,9 +139,9 @@ layers:
   - '&soft_off'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&soft_off'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB SPI
+  - RGB SAI
+  - RGB COLOR HSB(114,100,50)
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
   - $$mdi:progress-download$$
