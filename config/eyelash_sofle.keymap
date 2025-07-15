@@ -60,7 +60,7 @@
             layers = <0>;
         };
 
-        command+ctrl {
+        hyper {
             bindings = <&kp LS(LA(LC(LG(LCTRL))))>;
             key-positions = <57 56>;
         };
