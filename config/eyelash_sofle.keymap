@@ -61,7 +61,7 @@
         };
 
         hyper {
-            bindings = <&kp LS(LA(LC(LG(LCTRL))))>;
+            bindings = <&kp LA(LC(LS(LEFT_GUI)))>;
             key-positions = <57 56>;
         };
 
