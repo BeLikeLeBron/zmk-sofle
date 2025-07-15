@@ -149,7 +149,7 @@ layers:
   - F7
   - F8
   - F9
-  - PRINTSCREEN
+  - {t: '[', s: '{'}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
   - RGB EFF
@@ -162,7 +162,7 @@ layers:
   - F4
   - F5
   - F6
-  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - EP TOG
   - $$mdi:skip-previous$$
@@ -175,7 +175,7 @@ layers:
   - F1
   - F2
   - F3
-  - {t: ']', s: '}'}
+  - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
