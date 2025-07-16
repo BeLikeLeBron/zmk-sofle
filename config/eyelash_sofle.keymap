@@ -96,6 +96,11 @@
             bindings = <&kp DELETE>;
             key-positions = <22 23>;
         };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <35 34>;
+        };
     };
 
     keymap {
