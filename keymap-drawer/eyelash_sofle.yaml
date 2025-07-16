@@ -123,10 +123,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
+  - {type: held alternate}
+  - {t: '$$mdi:mouse-left-click-outline$$', type: held alternate}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -186,12 +186,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:play-pause$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: PLAY PAUSE, type: held}
+  - PLAY PAUSE
   - {type: held}
   - STOP
   - {t: '$$mdi:transfer$$', type: trans}
@@ -253,10 +253,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -322,7 +322,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - KP EQUAL
   - {t: '$$mdi:transfer$$', type: trans}
   LAYER5:
@@ -781,28 +781,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [60, 61]
-  k: {t: '$$mdi:keyboard-return$$', h: 2funmedia}
-  l: [LAYER0]
-- p: [56, 55]
-  k: {t: '$$mdi:backspace-reverse-outline$$', h: 2funmedia}
-  l: [LAYER0]
-- p: [60, 61, 56, 55]
-  k: {t: LAYER5, h: toggle}
-  l: [LAYER0]
-- p: [57, 56]
-  k: Meh+$$mdi:apple-keyboard-command$$
-- p: [60, 56, 61, 55]
-  k: {t: LAYER0, h: toggle}
-  l: [LAYER5]
 - p: [54, 53]
   k: {t: LAYER5, h: toggle}
   l: [LAYER0]
 - p: [53, 54]
   k: {t: LAYER0, h: toggle}
   l: [LAYER5]
-- p: [62, 61]
-  k: $$mdi:apple-keyboard-option$$
 - p: [17, 16]
   k: $$mdi:keyboard-esc$$
 - p: [21, 22]
