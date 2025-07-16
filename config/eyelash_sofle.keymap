@@ -82,9 +82,9 @@
             layers = <0>;
         };
 
-        Gaminglayer10 {
-            bindings = <&tog 0>;
-            key-positions = <60 56 61 55>;
+        Gaminglayer {
+            bindings = <&tog 5>;
+            key-positions = <60 61 56 55>;
             layers = <0>;
         };
 
@@ -96,6 +96,18 @@
         defaultLayer {
             bindings = <&tog 0>;
             key-positions = <60 56 61 55>;
+            layers = <5>;
+        };
+
+        togaming {
+            bindings = <&tog 5>;
+            key-positions = <54 53>;
+            layers = <0>;
+        };
+
+        todefault {
+            bindings = <&tog 0>;
+            key-positions = <53 54>;
             layers = <5>;
         };
     };
