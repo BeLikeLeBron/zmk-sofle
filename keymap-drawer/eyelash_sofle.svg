@@ -691,17 +691,23 @@ rect.held, rect.combo.held {
 </a></g>
 <g class="combo combopos-2">
 <path d="M462,271 l129,11" class="combo"/>
-<path d="M462,271 l-129,11" class="combo"/>
 <path d="M462,271 l191,-11" class="combo"/>
+<path d="M462,271 l-129,11" class="combo"/>
 <path d="M462,271 l-191,-11" class="combo"/>
 <rect rx="6" ry="6" x="448" y="258" width="28" height="26" class="combo"/>
-<a href="#LAYER0">
-<text x="462" y="271" class="combo tap layer-activator">LAYER0</text>
+<a href="#LAYER5">
+<text x="462" y="271" class="combo tap layer-activator">LAYER5</text>
 </a><text x="462" y="282" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="338" y="276" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="343" y="280" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="154" y="242" width="28" height="26" class="combo"/>
+<a href="#LAYER5">
+<text x="168" y="256" class="combo tap layer-activator">LAYER5</text>
+</a><text x="168" y="266" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -2500,6 +2506,12 @@ rect.held, rect.combo.held {
 <a href="#LAYER0">
 <text x="462" y="271" class="combo tap layer-activator">LAYER0</text>
 </a><text x="462" y="282" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="154" y="242" width="28" height="26" class="combo"/>
+<a href="#LAYER0">
+<text x="168" y="256" class="combo tap layer-activator">LAYER0</text>
+</a><text x="168" y="266" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
