@@ -110,6 +110,11 @@
             key-positions = <53 54>;
             layers = <5>;
         };
+
+        alt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <62 61>;
+        };
     };
 
     keymap {
