@@ -121,12 +121,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {t: '$$mdi:mouse-left-click-outline$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:mouse-right-click-outline$$', type: held alternate}
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -796,4 +796,4 @@ combos:
 - p: [35, 34]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [55, 56]
-  k: {t: '$$mdi:apple-keyboard-option$$', h: '1'}
+  k: {t: '1', h: toggle}
