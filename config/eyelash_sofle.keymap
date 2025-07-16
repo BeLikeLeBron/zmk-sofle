@@ -96,6 +96,7 @@
         defaultLayer {
             bindings = <&tog 0>;
             key-positions = <60 56 61 55>;
+            layers = <5>;
         };
     };
 
