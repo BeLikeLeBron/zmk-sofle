@@ -194,7 +194,7 @@ layers:
   - {type: held alternate}
   - PLAY PAUSE
   - STOP
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
   3Sym+Rightnum:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
