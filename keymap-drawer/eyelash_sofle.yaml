@@ -801,3 +801,5 @@ combos:
 - p: [53, 54]
   k: {t: LAYER0, h: toggle}
   l: [LAYER5]
+- p: [62, 61]
+  k: $$mdi:apple-keyboard-option$$
