@@ -793,3 +793,5 @@ combos:
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [22, 23]
   k: $$mdi:backspace-reverse-outline$$
+- p: [35, 34]
+  k: {t: '$$mdi:backspace$$', type: backspace}
