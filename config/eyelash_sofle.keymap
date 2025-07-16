@@ -70,35 +70,6 @@
     combos {
         compatible = "zmk,combos";
 
-        layer5+delete {
-            bindings = <&lt 2 ENTER>;
-            key-positions = <60 61>;
-            layers = <0>;
-        };
-
-        layer2+shifttab {
-            bindings = <&lt 2 DEL>;
-            key-positions = <56 55>;
-            layers = <0>;
-        };
-
-        Gaminglayer {
-            bindings = <&tog 5>;
-            key-positions = <60 61 56 55>;
-            layers = <0>;
-        };
-
-        hyper {
-            bindings = <&kp LA(LC(LS(LEFT_GUI)))>;
-            key-positions = <57 56>;
-        };
-
-        defaultLayer {
-            bindings = <&tog 0>;
-            key-positions = <60 56 61 55>;
-            layers = <5>;
-        };
-
         togaming {
             bindings = <&tog 5>;
             key-positions = <54 53>;
@@ -109,11 +80,6 @@
             bindings = <&tog 0>;
             key-positions = <53 54>;
             layers = <5>;
-        };
-
-        alt {
-            bindings = <&kp RIGHT_ALT>;
-            key-positions = <62 61>;
         };
 
         esc {
@@ -141,7 +107,7 @@
 &kp TAB        &kp Q         &kp W         &kp E          &kp R               &HRML LA(LS(LCTRL)) T       &kp DOWN_ARROW   &HRMR RA(RS(RCTRL)) Y          &kp U           &kp I            &kp O          &kp P            &kp BSLH
 &kp CAPS       &HRML LGUI A  &HRML LALT S  &HRML LCTRL D  &HRML LSHFT F       &HRML LC(LA(LS(LGUI))) G    &kp LEFT_ARROW   &HRMR RC(RA(RS(RIGHT_GUI))) H  &HRMR RSHIFT J  &HRMR RCTRL K    &HRMR RALT L   &HRMR RGUI SEMI  &kp APOS
 &kp LSHFT      &kp Z         &kp X         &kp C          &kp V               &lt 1 B                     &kp RIGHT_ARROW  &lt 1 N                        &kp M           &kp COMMA        &kp DOT        &kp FSLH         &kp ENTER
-&kp C_MUTE     &kp LCTRL     &none         &none          &mt LEFT_SHIFT TAB  &lt 3 SPACE                 &none            &lt 3 SPACE                    &lt 3 SPACE     &lt 4 BACKSPACE  &kp RIGHT_GUI  &none
+&kp C_MUTE     &kp LCTRL     &none         &none          &mt LEFT_SHIFT TAB  &lt 1 SPACE                 &none            &lt 1 SPACE                    &lt 1 SPACE     &lt 2 BACKSPACE  &kp RIGHT_GUI  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
