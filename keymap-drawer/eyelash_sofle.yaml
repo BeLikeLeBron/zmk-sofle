@@ -794,3 +794,4 @@ combos:
   k: Meh+$$mdi:apple-keyboard-command$$
 - p: [60, 56, 61, 55]
   k: {t: LAYER0, h: toggle}
+  l: [LAYER5]
