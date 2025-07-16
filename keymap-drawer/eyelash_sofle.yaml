@@ -110,9 +110,9 @@ layers:
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - {t: '-', s: _}
+  - {t: '-', s: _, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PgDn
+  - {t: PgDn, type: held alternate}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -121,7 +121,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -803,3 +803,9 @@ combos:
   l: [LAYER5]
 - p: [62, 61]
   k: $$mdi:apple-keyboard-option$$
+- p: [17, 16]
+  k: $$mdi:keyboard-esc$$
+- p: [21, 22]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [22, 23]
+  k: $$mdi:backspace-reverse-outline$$
