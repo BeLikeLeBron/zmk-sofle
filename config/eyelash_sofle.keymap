@@ -103,7 +103,7 @@
         };
 
         layer1 {
-            bindings = <&lt 1 LEFT_ALT>;
+            bindings = <&to 1>;
             key-positions = <55 56>;
         };
     };
@@ -126,11 +126,11 @@
 
         layer_1 {
             bindings = <
-&trans  &trans     &trans  &trans  &trans     &trans       &trans  &trans         &trans          &trans          &trans        &trans           &trans
-&trans  &kp GRAVE  &kp N7  &kp N8  &kp N9     &kp APOS     &trans  &kp BSLH       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
-&trans  &kp DOT    &kp N4  &kp N5  &kp N6     &kp EQUAL    &trans  &kp PAGE_UP    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
-&trans  &kp N0     &kp N1  &kp N2  &kp N3     &kp MINUS    &trans  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans     &trans  &trans  &mkp LCLK  &trans       &trans  &trans         &trans          &mkp RCLK       &mkp MCLK     &trans
+&trans  &trans     &trans  &trans  &trans  &trans       &trans  &trans         &trans          &trans          &trans        &trans           &trans
+&trans  &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp APOS     &trans  &kp BSLH       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&trans  &kp DOT    &kp N4  &kp N5  &kp N6  &kp EQUAL    &trans  &kp PAGE_UP    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
+&trans  &kp N0     &kp N1  &kp N2  &kp N3  &kp MINUS    &trans  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans     &trans  &trans  &trans  &trans       &trans  &trans         &mkp LCLK       &mkp RCLK       &mkp MCLK     &trans
             >;
         };
 
