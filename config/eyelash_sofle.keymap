@@ -115,6 +115,21 @@
             bindings = <&kp RIGHT_ALT>;
             key-positions = <62 61>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <17 16>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <21 22>;
+        };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <22 23>;
+        };
     };
 
     keymap {
@@ -125,8 +140,8 @@
 &mt GRAVE ESC  &kp N1        &kp N2        &kp N3         &kp N4              &kp N5                      &kp UP_ARROW     &kp N6                         &kp N7          &kp N8           &kp N9         &kp N0           &mt MINUS BACKSPACE
 &kp TAB        &kp Q         &kp W         &kp E          &kp R               &HRML LA(LS(LCTRL)) T       &kp DOWN_ARROW   &HRMR RA(RS(RCTRL)) Y          &kp U           &kp I            &kp O          &kp P            &kp BSLH
 &kp CAPS       &HRML LGUI A  &HRML LALT S  &HRML LCTRL D  &HRML LSHFT F       &HRML LC(LA(LS(LGUI))) G    &kp LEFT_ARROW   &HRMR RC(RA(RS(RIGHT_GUI))) H  &HRMR RSHIFT J  &HRMR RCTRL K    &HRMR RALT L   &HRMR RGUI SEMI  &kp APOS
-&kp LSHFT      &kp Z         &kp X         &kp C          &kp V               &kp B                       &kp RIGHT_ARROW  &kp N                          &kp M           &kp COMMA        &kp DOT        &kp FSLH         &kp ENTER
-&kp C_MUTE     &kp LCTRL     &none         &lt 1 ESC      &mt LEFT_SHIFT TAB  &lt 3 SPACE                 &none            &lt 3 SPACE                    &lt 3 SPACE     &lt 4 BACKSPACE  &kp RIGHT_GUI  &none
+&kp LSHFT      &kp Z         &kp X         &kp C          &kp V               &lt 1 B                     &kp RIGHT_ARROW  &lt 1 N                        &kp M           &kp COMMA        &kp DOT        &kp FSLH         &kp ENTER
+&kp C_MUTE     &kp LCTRL     &none         &none          &mt LEFT_SHIFT TAB  &lt 3 SPACE                 &none            &lt 3 SPACE                    &lt 3 SPACE     &lt 4 BACKSPACE  &kp RIGHT_GUI  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
