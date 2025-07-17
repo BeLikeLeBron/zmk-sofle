@@ -175,7 +175,7 @@
         layer_4OSbuttons+arrows {
             bindings = <
 &trans  &trans         &trans        &trans         &trans          &trans                               &trans  &kp KP_NUMLOCK  &trans           &trans     &trans        &trans           &trans
-&trans  &trans         &trans        &kp CAPS       &key_repeat     &caps_word                           &trans  &kp KP_DIVIDE   &kp KP_N7        &kp KP_N8  &kp KP_N9     &kp KP_ASTERISK  &trans
+&trans  &trans         &caps_word    &kp CAPS       &key_repeat     &kp LA(LS(LCTRL))                    &trans  &kp KP_DIVIDE   &kp KP_N7        &kp KP_N8  &kp KP_N9     &kp KP_ASTERISK  &trans
 &trans  &kp LGUI       &kp LALT      &kp LCTRL      &kp LSHIFT      &HRML LC(LA(LS(LGUI))) KP_NUMLOCK    &trans  &kp KP_DOT      &kp KP_NUMBER_4  &kp KP_N5  &kp KP_N6     &kp KP_PLUS      &trans
 &trans  &kp C_AC_UNDO  &kp C_AC_CUT  &kp C_AC_COPY  &kp C_AC_PASTE  &HRML CAPSLOCK C_AC_REDO             &trans  &kp KP_N0       &kp KP_N1        &kp KP_N2  &kp KP_N3     &kp KP_MINUS     &trans
 &trans  &trans         &trans        &trans         &trans          &trans                               &trans  &trans          &trans           &trans     &kp KP_EQUAL  &trans
