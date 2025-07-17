@@ -214,20 +214,20 @@
 
         layer_2funmedia {
             bindings = <
-&soft_off  &trans          &trans         &trans          &trans           &trans                                      &trans  &trans                               &trans               &trans                     &trans                  &trans             &soft_off
-&trans     &kp F12         &kp F7         &kp F8          &kp F9           &HRML LA(LS(LCTRL)) LEFT_BRACKET            &trans  &HRMR RA(RS(RCTRL)) HOME             &kp LEFT_ARROW       &kp DOWN_ARROW             &kp UP_ARROW            &kp RIGHT_ARROW    &sys_reset
-&trans     &HRML LGUI F11  &HRML LALT F4  &HRML LCTRL F5  &HRML LSHIFT F6  &HRML LC(LA(LS(LEFT_GUI))) RIGHT_BRACKET    &trans  &HRMR RC(RA(RS(RGUI))) C_PLAY_PAUSE  &HRMR RSHIFT C_PREV  &HRMR RCTRL C_VOLUME_DOWN  &HRMR RALT C_VOLUME_UP  &HRMR RGUI C_NEXT  &trans
-&trans     &kp F10         &kp F1         &kp F2          &kp F3           &HRML CAPSLOCK PRINTSCREEN                  &trans  &HRMRoutput CAPSLOCK OUT_TOG         &bt BT_SEL 0         &bt BT_SEL 1               &bt BT_SEL 2            &bt BT_SEL 3       &bt BT_SEL 4
-&trans     &trans          &trans         &trans          &trans           &trans                                      &trans  &trans                               &trans               &trans                     &trans                  &trans
+&trans  &trans          &trans         &trans          &trans           &trans                                      &trans  &trans                               &trans               &trans                     &trans                  &trans             &trans
+&trans  &kp F12         &kp F7         &kp F8          &kp F9           &HRML LA(LS(LCTRL)) LEFT_BRACKET            &trans  &HRMR RA(RS(RCTRL)) HOME             &kp LEFT_ARROW       &kp DOWN_ARROW             &kp UP_ARROW            &kp RIGHT_ARROW    &trans
+&trans  &HRML LGUI F11  &HRML LALT F4  &HRML LCTRL F5  &HRML LSHIFT F6  &HRML LC(LA(LS(LEFT_GUI))) RIGHT_BRACKET    &trans  &HRMR RC(RA(RS(RGUI))) C_PLAY_PAUSE  &HRMR RSHIFT C_PREV  &HRMR RCTRL C_VOLUME_DOWN  &HRMR RALT C_VOLUME_UP  &HRMR RGUI C_NEXT  &trans
+&trans  &kp F10         &kp F1         &kp F2          &kp F3           &HRML CAPSLOCK PRINTSCREEN                  &trans  &HRMRoutput CAPSLOCK OUT_TOG         &bt BT_SEL 0         &bt BT_SEL 1               &bt BT_SEL 2            &bt BT_SEL 3       &bt BT_SEL 4
+&trans  &trans          &trans         &trans          &trans           &trans                                      &trans  &trans                               &trans               &trans                     &trans                  &trans
             >;
         };
 
         layer_4OSbuttons+arrows {
             bindings = <
 &trans  &trans                     &trans                 &trans                  &trans                   &trans                               &trans  &trans         &trans           &trans     &trans        &trans           &trans
-&trans  &ext_power EP_TOG          &soft_off              &trans                  &trans                   &HRMLRGB LA(LS(LCTRL)) RGB_BRD       &trans  &kp KP_DIVIDE  &kp KP_N7        &kp KP_N8  &kp KP_N9     &kp KP_ASTERISK  &trans
-&trans  &HRMLRGB LEFT_GUI RGB_TOG  &HRMLRGB LALT RGB_EFF  &HRMLRGB LCTRL RGB_HUI  &HRMLRGB LSHIFT RGB_BRI  &HRML LC(LA(LS(LGUI))) KP_NUMLOCK    &trans  &kp KP_DOT     &kp KP_NUMBER_4  &kp KP_N5  &kp KP_N6     &kp KP_PLUS      &trans
-&trans  &trans                     &bootloader            &sys_reset              &bt BT_CLR               &HRML CAPSLOCK C_AC_REDO             &trans  &kp KP_N0      &kp KP_N1        &kp KP_N2  &kp KP_N3     &kp KP_MINUS     &trans
+&trans  &ext_power EP_TOG          &soft_off              &trans                  &trans                   &HRMLRGB LA(LS(LCTRL)) RGB_BRD       &trans  &kp KP_DIVIDE  &kp KP_N7        &kp KP_N8  &kp KP_N9     &kp KP_ASTERISK  &soft_off
+&trans  &HRMLRGB LEFT_GUI RGB_TOG  &HRMLRGB LALT RGB_EFF  &HRMLRGB LCTRL RGB_HUI  &HRMLRGB LSHIFT RGB_BRI  &HRML LC(LA(LS(LGUI))) KP_NUMLOCK    &trans  &kp KP_DOT     &kp KP_NUMBER_4  &kp KP_N5  &kp KP_N6     &kp KP_PLUS      &sys_reset
+&trans  &trans                     &bootloader            &sys_reset              &bt BT_CLR               &HRML CAPSLOCK C_AC_REDO             &trans  &kp KP_N0      &kp KP_N1        &kp KP_N2  &kp KP_N3     &kp KP_MINUS     &kp KP_ENTER
 &trans  &trans                     &trans                 &trans                  &trans                   &trans                               &trans  &trans         &trans           &trans     &kp KP_EQUAL  &trans
             >;
         };
