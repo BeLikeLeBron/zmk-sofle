@@ -151,11 +151,11 @@ layers:
   - F9
   - {t: '[', s: '{'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB TOG
-  - {t: A, h: '$$mdi:apple-keyboard-caps$$'}
-  - RGB HUI
-  - RGB BRI
-  - RGB COLOR HSB(0,100,38)
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: U, h: '$$mdi:apple-keyboard-caps$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - F11
@@ -164,7 +164,7 @@ layers:
   - F6
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: PLAY PAUSE, h: Ctl+AltGr+Sft+RIGHT GUI}
+  - PLAY PAUSE
   - $$mdi:skip-previous$$
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
