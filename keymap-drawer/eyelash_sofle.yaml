@@ -112,7 +112,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '-', s: _, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: PgDn, type: held alternate}
+  - PgDn
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
