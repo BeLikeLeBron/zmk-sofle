@@ -130,38 +130,45 @@
             bindings = <&tog 4>;
             key-positions = <53 56>;
             layers = <0>;
+            require-prior-idle-ms = <100>;
         };
 
         todefault {
             bindings = <&tog 0>;
             key-positions = <53 56>;
             layers = <4>;
+            require-prior-idle-ms = <100>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <17 16>;
+            require-prior-idle-ms = <100>;
         };
 
         enter {
             bindings = <&kp ENTER>;
             key-positions = <21 22>;
+            require-prior-idle-ms = <100>;
         };
 
         delete {
             bindings = <&kp DELETE>;
             key-positions = <22 23>;
+            require-prior-idle-ms = <100>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <35 34>;
+            require-prior-idle-ms = <100>;
         };
 
         layer1 {
             bindings = <&to 2>;
             key-positions = <55 56>;
             layers = <0>;
+            require-prior-idle-ms = <100>;
         };
     };
 
