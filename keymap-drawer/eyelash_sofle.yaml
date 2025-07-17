@@ -716,10 +716,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [54, 53]
+- p: [53, 56]
   k: {t: LAYER5, h: toggle}
   l: [LAYER0]
-- p: [53, 54]
+- p: [53, 56]
   k: {t: LAYER0, h: toggle}
   l: [LAYER5]
 - p: [17, 16]
@@ -732,3 +732,4 @@ combos:
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [55, 56]
   k: {t: 2funmedia, h: toggle}
+  l: [LAYER0]
