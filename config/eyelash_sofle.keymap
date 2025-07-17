@@ -71,7 +71,7 @@
         compatible = "zmk,combos";
 
         togaming {
-            bindings = <&tog 7>;
+            bindings = <&tog 6>;
             key-positions = <54 53>;
             layers = <0>;
         };
@@ -79,7 +79,7 @@
         todefault {
             bindings = <&tog 0>;
             key-positions = <53 54>;
-            layers = <7>;
+            layers = <6>;
         };
 
         esc {
@@ -105,6 +105,11 @@
         layer1 {
             bindings = <&to 2>;
             key-positions = <55 56>;
+        };
+
+        to3 {
+            bindings = <&to 3>;
+            key-positions = <53 54>;
         };
     };
 
@@ -144,23 +149,13 @@
             >;
         };
 
-        layer_3Sym+Rightnum {
-            bindings = <
-&trans  &trans                 &trans           &trans        &trans                &trans               &trans  &trans     &trans  &trans  &trans  &trans     &trans
-&trans  &kp TILDE              &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES    &trans  &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp APOS   &trans
-&trans  &kp GREATER_THAN       &kp CARET        &kp PERCENT   &kp DOLLAR            &kp PLUS             &trans  &kp DOT    &kp N4  &kp N5  &kp N6  &kp EQUAL  &trans
-&trans  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp UNDERSCORE       &trans  &kp N0     &kp N1  &kp N2  &kp N3  &kp MINUS  &trans
-&trans  &trans                 &trans           &trans        &trans                &trans               &trans  &trans     &trans  &trans  &trans  &trans
-            >;
-        };
-
         layer_4OSbuttons+arrows {
             bindings = <
-&trans  &trans            &trans             &trans         &trans          &trans            &trans  &kp KP_NUMLOCK  &trans           &trans     &trans        &trans           &trans
-&trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp CAPS       &key_repeat     &caps_word        &trans  &kp KP_DIVIDE   &kp KP_N7        &kp KP_N8  &kp KP_N9     &kp KP_ASTERISK  &trans
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &trans          &kp KP_NUMLOCK    &trans  &kp KP_DOT      &kp KP_NUMBER_4  &kp KP_N5  &kp KP_N6     &kp KP_PLUS      &trans
-&trans  &kp C_AC_UNDO     &kp C_AC_CUT       &kp C_AC_COPY  &kp C_AC_PASTE  &kp C_AC_REDO     &trans  &kp KP_N0       &kp KP_N1        &kp KP_N2  &kp KP_N3     &kp KP_MINUS     &trans
-&trans  &trans            &trans             &trans         &trans          &trans            &trans  &trans          &trans           &trans     &kp KP_EQUAL  &trans
+&trans  &trans         &trans        &trans         &trans          &trans            &trans  &kp KP_NUMLOCK  &trans           &trans     &trans        &trans           &trans
+&trans  &trans         &trans        &kp CAPS       &key_repeat     &caps_word        &trans  &kp KP_DIVIDE   &kp KP_N7        &kp KP_N8  &kp KP_N9     &kp KP_ASTERISK  &trans
+&trans  &trans         &trans        &trans         &trans          &kp KP_NUMLOCK    &trans  &kp KP_DOT      &kp KP_NUMBER_4  &kp KP_N5  &kp KP_N6     &kp KP_PLUS      &trans
+&trans  &kp C_AC_UNDO  &kp C_AC_CUT  &kp C_AC_COPY  &kp C_AC_PASTE  &kp C_AC_REDO     &trans  &kp KP_N0       &kp KP_N1        &kp KP_N2  &kp KP_N3     &kp KP_MINUS     &trans
+&trans  &trans         &trans        &trans         &trans          &trans            &trans  &trans          &trans           &trans     &kp KP_EQUAL  &trans
             >;
         };
 
@@ -171,7 +166,7 @@
 &kp TAB        &kp Q      &kp W   &kp E               &kp R        &kp T     &kp DOWN_ARROW   &kp Y   &kp U        &kp I            &kp O          &kp P     &kp BSLH
 &kp CAPS       &kp A      &kp S   &kp D               &kp F        &kp G     &kp LEFT_ARROW   &kp H   &kp J        &kp K            &kp L          &kp SEMI  &kp APOS
 &kp LSHFT      &kp Z      &kp X   &kp C               &kp V        &kp B     &kp RIGHT_ARROW  &kp N   &kp M        &kp COMMA        &kp DOT        &kp FSLH  &kp ENTER
-&kp C_MUTE     &kp LCTRL  &none   &mt LEFT_SHIFT TAB  &lt 6 SPACE  &none     &none            &none   &lt 6 SPACE  &lt 7 BACKSPACE  &kp RIGHT_GUI  &none
+&kp C_MUTE     &kp LCTRL  &none   &mt LEFT_SHIFT TAB  &lt 5 SPACE  &none     &none            &none   &lt 5 SPACE  &lt 6 BACKSPACE  &kp RIGHT_GUI  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -224,7 +219,7 @@
 &kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
 &kp CAPS    &kp A      &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
 &kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 11  &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 12     &kp RIGHT_SHIFT  &kp DELETE
+&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 10  &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 11     &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
