@@ -127,7 +127,7 @@
         compatible = "zmk,combos";
 
         togaming {
-            bindings = <&tog 6>;
+            bindings = <&tog 4>;
             key-positions = <54 53>;
             layers = <0>;
         };
@@ -135,7 +135,7 @@
         todefault {
             bindings = <&tog 0>;
             key-positions = <53 54>;
-            layers = <6>;
+            layers = <4>;
         };
 
         esc {
