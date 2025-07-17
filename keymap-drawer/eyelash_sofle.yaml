@@ -144,7 +144,7 @@ layers:
   - RGB COLOR HSB(114,100,50)
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
-  - $$mdi:progress-download$$
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - F12
   - F7
   - F8
@@ -155,8 +155,8 @@ layers:
   - RGB EFF
   - RGB HUI
   - RGB BRI
-  - RGB COLOR HSB(0,100,35)
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB COLOR HSB(0,100,38)
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - F11
   - F4
