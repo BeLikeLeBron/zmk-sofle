@@ -211,10 +211,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:alpha-w-box$$
   - $$mdi:apple-keyboard-caps$$
   - '&key_repeat'
-  - $$mdi:alpha-w-box$$
+  - Alt+Sft+$$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - KP DIVIDE
   - KP 7
