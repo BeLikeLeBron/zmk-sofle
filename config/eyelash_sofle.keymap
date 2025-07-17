@@ -128,13 +128,13 @@
 
         togaming {
             bindings = <&tog 4>;
-            key-positions = <54 53>;
+            key-positions = <53 56>;
             layers = <0>;
         };
 
         todefault {
             bindings = <&tog 0>;
-            key-positions = <53 54>;
+            key-positions = <53 56>;
             layers = <4>;
         };
 
@@ -161,6 +161,7 @@
         layer1 {
             bindings = <&to 2>;
             key-positions = <55 56>;
+            layers = <0>;
         };
     };
 
