@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   layer0:
-  - {t: '$$mdi:keyboard-esc$$', h: '`'}
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -261,7 +261,7 @@ layers:
   - KP EQUAL
   - {t: '$$mdi:transfer$$', type: trans}
   layer4:
-  - {t: '$$mdi:keyboard-esc$$', h: '`'}
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
