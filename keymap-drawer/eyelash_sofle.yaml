@@ -717,11 +717,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [54, 53]
-  k: {t: 7Gaming2, h: toggle}
+  k: {t: LAYER5, h: toggle}
   l: [LAYER0]
 - p: [53, 54]
   k: {t: LAYER0, h: toggle}
-  l: [7Gaming2]
+  l: [LAYER5]
 - p: [17, 16]
   k: $$mdi:keyboard-esc$$
 - p: [21, 22]
