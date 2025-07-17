@@ -121,13 +121,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:mouse-right-click-outline$$', type: held alternate}
+  - {t: '$$mdi:mouse-left-click-outline$$', type: held alternate}
+  - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:transfer$$', type: trans}
   2funmedia:
@@ -151,7 +151,7 @@ layers:
   - F9
   - {t: '[', s: '{'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&key_repeat'
+  - $$mdi:mouse-scroll-wheel$$
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-up$$
@@ -188,11 +188,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   3Sym+Rightnum:
@@ -338,7 +338,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', h: '-'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -381,13 +381,13 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-esc$$', h: '1'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-space$$', h: 3Sym+Rightnum}
+  - {t: '$$mdi:keyboard-space$$', h: 6Gaming1}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-space$$', h: 3Sym+Rightnum}
-  - {t: '$$mdi:keyboard-space$$', h: 3Sym+Rightnum}
-  - {t: '$$mdi:backspace$$', h: 4OSbuttons+arrows}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-space$$', h: 6Gaming1}
+  - {t: '$$mdi:backspace$$', h: 7Gaming2}
   - RIGHT GUI
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   6Gaming1:
@@ -447,11 +447,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:mouse-left-click-outline$$', type: held alternate}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -517,7 +517,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PLAY PAUSE
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - STOP
   - {t: '$$mdi:transfer$$', type: trans}
   8Gaming3:
@@ -782,11 +782,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [54, 53]
-  k: {t: LAYER5, h: toggle}
+  k: {t: 7Gaming2, h: toggle}
   l: [LAYER0]
 - p: [53, 54]
   k: {t: LAYER0, h: toggle}
-  l: [LAYER5]
+  l: [7Gaming2]
 - p: [17, 16]
   k: $$mdi:keyboard-esc$$
 - p: [21, 22]
@@ -796,4 +796,4 @@ combos:
 - p: [35, 34]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [55, 56]
-  k: {t: '1', h: toggle}
+  k: {t: 2funmedia, h: toggle}
