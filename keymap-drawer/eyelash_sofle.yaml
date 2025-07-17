@@ -591,7 +591,7 @@ combos:
   l: [layer0]
 - p: [53, 56]
   k: {t: layer0, h: toggle}
-  l: [layer4]
+  l: [layer1, layer3, layer2, layer4, layer5Gaming1, layer6Gaming2]
 - p: [17, 16]
   k: $$mdi:keyboard-esc$$
   l: [layer0, layer2, layer1, layer3]
