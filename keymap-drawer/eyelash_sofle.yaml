@@ -131,19 +131,19 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:transfer$$', type: trans}
   2funmedia:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
+  - EP TOG
+  - RGB TOG
+  - RGB EFF
+  - RGB HUI
   - '&soft_off'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&soft_off'
-  - RGB SPI
-  - RGB SAI
-  - RGB COLOR HSB(114,100,50)
+  - RGB BRD
+  - RGB BRI
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
+  - $$mdi:progress-download$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - F12
   - F7
@@ -152,24 +152,24 @@ layers:
   - {t: '[', s: '{'}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
-  - RGB EFF
+  - {t: A, h: '$$mdi:apple-keyboard-caps$$'}
   - RGB HUI
   - RGB BRI
   - RGB COLOR HSB(0,100,38)
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F11
   - F4
   - F5
   - F6
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - EP TOG
+  - {t: PLAY PAUSE, h: Ctl+AltGr+Sft+RIGHT GUI}
   - $$mdi:skip-previous$$
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:skip-next$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F10
   - F1
@@ -192,8 +192,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {type: held alternate}
-  - PLAY PAUSE
-  - STOP
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   3Sym+Rightnum:
   - {t: '$$mdi:transfer$$', type: trans}
