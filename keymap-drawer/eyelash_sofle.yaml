@@ -210,10 +210,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - AC UNDO
-  - $$mdi:alpha-w-box$$
-  - $$mdi:apple-keyboard-caps$$
-  - '&key_repeat'
+  - EP TOG
+  - EP TOG
+  - RGB TOG
+  - RGB EFF
   - Alt+Sft+$$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - KP DIVIDE
@@ -223,10 +223,10 @@ layers:
   - KP ASTERISK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - LGUI
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: RGB TOG, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: RGB EFF, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: RGB HUI, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: RGB BRI, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: KP NUMLOCK, h: Meh+LGUI}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP DOT
@@ -237,9 +237,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - AC CUT
-  - AC COPY
-  - AC PASTE
+  - $$mdi:progress-download$$
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - $$mdi:bluetooth-off$$
   - {t: AC REDO, h: '$$mdi:apple-keyboard-caps$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
