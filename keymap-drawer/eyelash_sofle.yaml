@@ -223,11 +223,11 @@ layers:
   - KP ASTERISK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - KP NUMLOCK
+  - LGUI
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - {t: KP NUMLOCK, h: Meh+LGUI}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP DOT
   - KP 4
@@ -240,7 +240,7 @@ layers:
   - AC CUT
   - AC COPY
   - AC PASTE
-  - AC REDO
+  - {t: AC REDO, h: '$$mdi:apple-keyboard-caps$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
   - KP 1
