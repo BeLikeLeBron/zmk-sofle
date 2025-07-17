@@ -193,7 +193,7 @@
             bindings = <&to 5>;
             key-positions = <55 56>;
             require-prior-idle-ms = <100>;
-            layers = <4 5 6 7 8>;
+            layers = <4 5 6>;
         };
     };
 
@@ -276,26 +276,6 @@
             >;
         };
 
-        layer7Gaming3 {
-            bindings = <
-&trans  &trans                 &trans           &trans        &trans                &trans               &trans  &trans     &trans  &trans  &trans  &trans     &trans
-&trans  &kp TILDE              &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES    &trans  &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp APOS   &trans
-&trans  &kp GREATER_THAN       &kp CARET        &kp PERCENT   &kp DOLLAR            &kp PLUS             &trans  &kp DOT    &kp N4  &kp N5  &kp N6  &kp EQUAL  &trans
-&trans  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp UNDERSCORE       &trans  &kp N0     &kp N1  &kp N2  &kp N3  &kp MINUS  &trans
-&trans  &trans                 &trans           &trans        &trans                &trans               &trans  &trans     &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_9Gaming4 {
-            bindings = <
-&trans  &trans            &trans             &trans         &trans          &trans            &trans  &kp KP_NUMLOCK  &trans           &trans     &trans        &trans           &trans
-&trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp CAPS       &key_repeat     &caps_word        &trans  &kp KP_DIVIDE   &kp KP_N7        &kp KP_N8  &kp KP_N9     &kp KP_ASTERISK  &trans
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &trans          &kp KP_NUMLOCK    &trans  &kp KP_DOT      &kp KP_NUMBER_4  &kp KP_N5  &kp KP_N6     &kp KP_PLUS      &trans
-&trans  &kp C_AC_UNDO     &kp C_AC_CUT       &kp C_AC_COPY  &kp C_AC_PASTE  &kp C_AC_REDO     &trans  &kp KP_N0       &kp KP_N1        &kp KP_N2  &kp KP_N3     &kp KP_MINUS     &trans
-&trans  &trans            &trans             &trans         &trans          &trans            &trans  &trans          &trans           &trans     &kp KP_EQUAL  &trans
-            >;
-        };
-
         OGsolfle-layer-0 {
             display-name = "LAYER0";
             bindings = <
@@ -303,7 +283,7 @@
 &kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
 &kp CAPS    &kp A      &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
 &kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 10  &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 11     &kp RIGHT_SHIFT  &kp DELETE
+&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 8   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 9      &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
