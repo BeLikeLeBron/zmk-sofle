@@ -213,8 +213,8 @@ layers:
   - EP TOG
   - '&soft_off'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: RGB BRD, h: 'Alt+Sft+$$mdi:apple-keyboard-control$$'}
+  - $$mdi:bluetooth-off$$
+  - Alt+Sft+$$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - KP DIVIDE
   - KP 7
@@ -223,10 +223,10 @@ layers:
   - KP ASTERISK
   - '&soft_off'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: RGB TOG, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: RGB EFF, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: RGB HUI, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: RGB BRI, h: '$$mdi:apple-keyboard-shift$$'}
+  - RGB TOG
+  - RGB EFF
+  - RGB HUI
+  - RGB BRI
   - {t: KP NUMLOCK, h: Meh+LGUI}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP DOT
@@ -239,7 +239,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - $$mdi:bluetooth-off$$
+  - RGB BRD
   - {t: AC REDO, h: '$$mdi:apple-keyboard-caps$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
