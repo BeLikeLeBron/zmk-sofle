@@ -84,22 +84,22 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - {t: '''', s: '"'}
+  - {t: '''', h: 'Alt+Sft+$$mdi:apple-keyboard-control$$', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: \, s: '|'}
+  - {t: \, h: 'AltGr+Sft+$$mdi:apple-keyboard-control$$', s: '|'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ., s: '>'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: '=', s: +}
+  - {t: ., h: LGUI, s: '>'}
+  - {t: '4', h: '$$mdi:apple-keyboard-option$$', s: $}
+  - {t: '5', h: '$$mdi:apple-keyboard-control$$', s: '%'}
+  - {t: '6', h: '$$mdi:apple-keyboard-shift$$', s: ^}
+  - {t: '=', h: 'Meh+$$mdi:apple-keyboard-command$$', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PgUp
+  - {t: PgUp, h: Ctl+AltGr+Sft+RGUI}
   - {t: '$$mdi:mouse-left-click-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:mouse-right-click-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:apple-keyboard-option$$'}
@@ -110,13 +110,13 @@ layers:
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - {t: '-', s: _}
+  - {t: '-', h: '$$mdi:apple-keyboard-caps$$', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PgDn
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - {t: PgDn, h: '$$mdi:apple-keyboard-caps$$'}
+  - $$mdi:pan-left$$
+  - $$mdi:pan-down$$
+  - $$mdi:pan-up$$
+  - $$mdi:pan-right$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -151,11 +151,11 @@ layers:
   - F9
   - {t: '[', s: '{'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:pan-left$$
-  - $$mdi:pan-down$$
-  - $$mdi:pan-up$$
-  - $$mdi:pan-right$$
+  - HOME
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - F11
