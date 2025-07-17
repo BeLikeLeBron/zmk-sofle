@@ -78,6 +78,20 @@
         require-prior-idle-ms = <150>;
     };
 
+    HRMRoutput: HRMRoutput {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HRMROUTPUT";
+        bindings = <&kp>, <&out>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <280>;
+        quick-tap-ms = <175>;
+        flavor = "balanced";
+        hold-trigger-key-positions = <0 1 2 3 4 5 13 14 15 16 17 18 26 27 28 29 30 31 39 40 41 42 43 44 53 54 55 56 57 52 19 58 6 45 32 63 62 61 60 59>;
+        hold-trigger-on-release;
+        require-prior-idle-ms = <150>;
+    };
+
     behaviors {
     };
 
@@ -150,11 +164,11 @@
 
         layer_2funmedia {
             bindings = <
-&bootloader  &ext_power EP_TOG  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &soft_off            &trans  &soft_off         &rgb_ug RGB_BRD  &rgb_ug RGB_BRI    &bt BT_CLR       &bt BT_CLR_ALL   &bootloader
-&sys_reset   &kp F12            &kp F7           &kp F8           &kp F9           &kp LEFT_BRACKET     &trans  &kp HOME          &kp LEFT_ARROW   &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT_ARROW  &sys_reset
-&trans       &kp F11            &kp F4           &kp F5           &kp F6           &kp RIGHT_BRACKET    &trans  &kp C_PLAY_PAUSE  &kp C_PREV       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT       &trans
-&trans       &kp F10            &kp F1           &kp F2           &kp F3           &kp PRINTSCREEN      &trans  &out OUT_TOG      &bt BT_SEL 0     &bt BT_SEL 1       &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4
-&trans       &trans             &trans           &trans           &trans           &trans               &trans  &trans            &trans           &trans             &trans           &bootloader
+&bootloader  &ext_power EP_TOG  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &soft_off                                   &trans  &soft_off                            &rgb_ug RGB_BRD      &rgb_ug RGB_BRI            &bt BT_CLR              &bt BT_CLR_ALL     &bootloader
+&sys_reset   &kp F12            &kp F7           &kp F8           &kp F9           &HRML LA(LS(LCTRL)) LEFT_BRACKET            &trans  &HRMR RA(RS(RCTRL)) HOME             &kp LEFT_ARROW       &kp DOWN_ARROW             &kp UP_ARROW            &kp RIGHT_ARROW    &sys_reset
+&trans       &HRML LGUI F11     &HRML LALT F4    &HRML LCTRL F5   &HRML LSHIFT F6  &HRML LC(LA(LS(LEFT_GUI))) RIGHT_BRACKET    &trans  &HRMR RC(RA(RS(RGUI))) C_PLAY_PAUSE  &HRMR RSHIFT C_PREV  &HRMR RCTRL C_VOLUME_DOWN  &HRMR RALT C_VOLUME_UP  &HRMR RGUI C_NEXT  &trans
+&trans       &kp F10            &kp F1           &kp F2           &kp F3           &HRML CAPSLOCK PRINTSCREEN                  &trans  &HRMRoutput CAPSLOCK OUT_TOG         &bt BT_SEL 0         &bt BT_SEL 1               &bt BT_SEL 2            &bt BT_SEL 3       &bt BT_SEL 4
+&trans       &trans             &trans           &trans           &trans           &trans                                      &trans  &trans                               &trans               &trans                     &trans                  &bootloader
             >;
         };
 
