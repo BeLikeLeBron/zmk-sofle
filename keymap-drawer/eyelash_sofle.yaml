@@ -131,11 +131,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   2funmedia:
-  - $$mdi:progress-download$$
-  - EP TOG
-  - RGB TOG
-  - RGB EFF
-  - RGB HUI
+  - '&soft_off'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&soft_off'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&soft_off'
@@ -143,8 +143,8 @@ layers:
   - RGB BRI
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - '&soft_off'
+  - {t: '$$mdi:transfer$$', type: trans}
   - F12
   - F7
   - F8
@@ -211,10 +211,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - EP TOG
-  - EP TOG
-  - RGB TOG
-  - RGB EFF
-  - Alt+Sft+$$mdi:apple-keyboard-control$$
+  - '&soft_off'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: RGB BRD, h: 'Alt+Sft+$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP DIVIDE
   - KP 7
