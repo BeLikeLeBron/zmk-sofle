@@ -17,12 +17,12 @@
 
 &msc {
     acceleration-exponent = <1>;      // 0
-    time-to-max-speed-ms = <100>;       // 300
-    delay-ms = <0>;                   // 0
+    time-to-max-speed-ms = <700>;       // 300
+    delay-ms = <16>;                   // 0
 };
 
 &mmv {
-    time-to-max-speed-ms = <500>;
+    time-to-max-speed-ms = <700>;
     acceleration-exponent = <1>;
     trigger-period-ms = <16>;
 };
