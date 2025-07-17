@@ -236,7 +236,7 @@ layers:
   - KP PLUS
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - AC UNDO
+  - {t: AC UNDO, type: held}
   - AC CUT
   - AC COPY
   - AC PASTE
@@ -732,5 +732,3 @@ combos:
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [55, 56]
   k: {t: 2funmedia, h: toggle}
-- p: [53, 54]
-  k: {t: 4OSbuttons+arrows, h: toggle}
