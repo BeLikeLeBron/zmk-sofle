@@ -188,6 +188,13 @@
             layers = <0 1 2 3>;
             require-prior-idle-ms = <100>;
         };
+
+        layer6gaming1 {
+            bindings = <&to 5>;
+            key-positions = <55 56>;
+            require-prior-idle-ms = <100>;
+            layers = <4 5 6 7 8>;
+        };
     };
 
     keymap {
