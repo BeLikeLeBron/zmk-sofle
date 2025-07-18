@@ -127,15 +127,15 @@
         compatible = "zmk,combos";
 
         togaming {
-            bindings = <&tog 4>;
+            bindings = <&to 4>;
             key-positions = <53 56>;
             layers = <0>;
             require-prior-idle-ms = <100>;
         };
 
         todefault {
-            bindings = <&tog 0>;
-            key-positions = <53 56>;
+            bindings = <&to 0>;
+            key-positions = <53 55>;
             layers = <1 3 2 4 5 6>;
             require-prior-idle-ms = <100>;
         };
@@ -169,14 +169,14 @@
         };
 
         layer1 {
-            bindings = <&tog 2>;
+            bindings = <&lt 2 ESC>;
             key-positions = <55 56>;
             layers = <0 1 2 3>;
             require-prior-idle-ms = <100>;
         };
 
         layer6gaming1 {
-            bindings = <&tog 5>;
+            bindings = <&lt 6 ESC>;
             key-positions = <55 56>;
             require-prior-idle-ms = <100>;
             layers = <4 5 6>;
@@ -188,11 +188,11 @@
 
         layer0 {
             bindings = <
-&kp ESC       &kp N1           &kp N2        &kp N3              &kp N4         &kp N5                      &kp UP_ARROW     &kp N6                         &kp N7          &kp N8           &kp N9        &kp N0              &kp BACKSPACE
-&kp TAB       &kp Q            &kp W         &kp E               &kp R          &HRML LA(LS(LCTRL)) T       &kp DOWN_ARROW   &HRMR RA(RS(RCTRL)) Y          &kp U           &kp I            &kp O         &kp P               &kp BSLH
-&kp CAPSLOCK  &HRML LGUI A     &HRML LALT S  &HRML LCTRL D       &HRML LSHFT F  &HRML LC(LA(LS(LGUI))) G    &kp LEFT_ARROW   &HRMR RC(RA(RS(RIGHT_GUI))) H  &HRMR RSHIFT J  &HRMR RCTRL K    &HRMR RALT L  &HRMR RGUI SEMI     &kp APOS
-&kp LSHIFT    &HRMRLayTOG 3 Z  &kp X         &kp C               &kp V          &HRML CAPSLOCK B            &kp RIGHT_ARROW  &HRMR CAPSLOCK N               &kp M           &kp COMMA        &kp DOT       &HRMRLayTOG 4 FSLH  &kp ENTER
-&kp C_MUTE    &kp LCTRL        &kp LEFT_ALT  &mt LEFT_SHIFT TAB  &lt 1 SPACE    &none                       &none            &none                          &lt 1 SPACE     &lt 2 BACKSPACE  &kp RGUI      &none
+&kp ESC       &kp N1        &kp N2        &kp N3              &kp N4         &kp N5                      &kp UP_ARROW     &kp N6                         &kp N7          &kp N8           &kp N9        &kp N0              &kp BACKSPACE
+&kp TAB       &kp Q         &kp W         &kp E               &kp R          &HRML LA(LS(LCTRL)) T       &kp DOWN_ARROW   &HRMR RA(RS(RCTRL)) Y          &kp U           &kp I            &kp O         &kp P               &kp BSLH
+&kp CAPSLOCK  &HRML LGUI A  &HRML LALT S  &HRML LCTRL D       &HRML LSHFT F  &HRML LC(LA(LS(LGUI))) G    &kp LEFT_ARROW   &HRMR RC(RA(RS(RIGHT_GUI))) H  &HRMR RSHIFT J  &HRMR RCTRL K    &HRMR RALT L  &HRMR RGUI SEMI     &kp APOS
+&kp LSHIFT    &lt 3 Z       &kp X         &kp C               &kp V          &HRML CAPSLOCK B            &kp RIGHT_ARROW  &HRMR CAPSLOCK N               &kp M           &kp COMMA        &kp DOT       &HRMRLayTOG 4 FSLH  &kp ENTER
+&kp C_MUTE    &kp LCTRL     &kp LEFT_ALT  &mt LEFT_SHIFT TAB  &lt 1 SPACE    &none                       &none            &none                          &lt 1 SPACE     &lt 2 BACKSPACE  &kp RGUI      &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -235,7 +235,7 @@
 &kp ESC     &kp N1     &kp N2        &kp N3              &kp N4       &kp N5    &kp UP_ARROW     &kp N6  &kp N7       &kp N8           &kp N9         &kp N0              &kp BACKSPACE
 &kp TAB     &kp Q      &kp W         &kp E               &kp R        &kp T     &kp DOWN_ARROW   &kp Y   &kp U        &kp I            &kp O          &kp P               &kp BSLH
 &kp CAPS    &kp A      &kp S         &kp D               &kp F        &kp G     &kp LEFT_ARROW   &kp H   &kp J        &kp K            &kp L          &kp SEMI            &kp APOS
-&kp LSHFT   &kp Z      &kp X         &kp C               &kp V        &kp B     &kp RIGHT_ARROW  &kp N   &kp M        &kp COMMA        &kp DOT        &HRMRLayTOG 0 FSLH  &kp ENTER
+&kp LSHFT   &kp Z      &kp X         &kp C               &kp V        &kp B     &kp RIGHT_ARROW  &kp N   &kp M        &kp COMMA        &kp DOT        &HRMRLayTOG 4 FSLH  &kp ENTER
 &kp C_MUTE  &kp LCTRL  &kp LEFT_ALT  &mt LEFT_SHIFT TAB  &lt 5 SPACE  &none     &none            &none   &lt 5 SPACE  &lt 6 BACKSPACE  &kp RIGHT_GUI  &none
             >;
 
