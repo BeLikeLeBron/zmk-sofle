@@ -236,7 +236,7 @@ layers:
   - KP PLUS
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - RGB BRD
@@ -256,8 +256,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
   - KP EQUAL
   - {t: '$$mdi:transfer$$', type: trans}
   layer4:
@@ -605,8 +605,11 @@ combos:
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [layer0, layer2, layer1, layer3]
 - p: [55, 56]
-  k: {t: '$$mdi:keyboard-esc$$', h: layer2}
+  k: {t: '$$mdi:keyboard-return$$', h: layer2}
   l: [layer0, layer1, layer2, layer3]
 - p: [55, 56]
   k: {t: '$$mdi:keyboard-esc$$', h: layer6Gaming2}
   l: [layer4, layer5Gaming1, layer6Gaming2]
+- p: [60, 61]
+  k: {t: '$$mdi:backspace-reverse-outline$$', h: layer3}
+  l: [layer0, layer2, layer1, layer3]
