@@ -186,8 +186,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -236,7 +236,7 @@ layers:
   - KP PLUS
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:progress-download$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - RGB BRD
@@ -311,7 +311,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: layer0, s: '?'}
+  - {t: /, h: layer4, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
@@ -446,8 +446,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -589,7 +589,7 @@ combos:
 - p: [53, 56]
   k: {t: layer4, h: toggle}
   l: [layer0]
-- p: [53, 56]
+- p: [53, 55]
   k: {t: layer0, h: toggle}
   l: [layer1, layer3, layer2, layer4, layer5Gaming1, layer6Gaming2]
 - p: [17, 16]
@@ -605,8 +605,8 @@ combos:
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [layer0, layer2, layer1, layer3]
 - p: [55, 56]
-  k: {t: layer2, h: toggle}
+  k: {t: '$$mdi:keyboard-esc$$', h: layer2}
   l: [layer0, layer1, layer2, layer3]
 - p: [55, 56]
-  k: {t: layer5Gaming1, h: toggle}
+  k: {t: '$$mdi:keyboard-esc$$', h: layer6Gaming2}
   l: [layer4, layer5Gaming1, layer6Gaming2]
