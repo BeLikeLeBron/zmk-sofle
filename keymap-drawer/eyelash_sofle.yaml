@@ -149,7 +149,7 @@ layers:
   - F7
   - F8
   - F9
-  - {t: '[', h: 'Alt+Sft+$$mdi:apple-keyboard-control$$', s: '{'}
+  - {h: 'Alt+Sft+$$mdi:apple-keyboard-control$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: HOME, h: 'AltGr+Sft+$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -162,13 +162,13 @@ layers:
   - {t: F4, h: '$$mdi:apple-keyboard-option$$'}
   - {t: F5, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F6, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ']', h: 'Meh+$$mdi:apple-keyboard-command$$', s: '}'}
+  - {h: 'Meh+$$mdi:apple-keyboard-command$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: PLAY PAUSE, h: Ctl+AltGr+Sft+RGUI}
-  - {t: '$$mdi:skip-previous$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:mouse-left-click-outline$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:mouse-right-click-outline$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:skip-next$$', h: RGUI}
+  - {t: '$$mdi:toggle-switch$$', h: Ctl+AltGr+Sft+RGUI, s: '$$mdi:usb$$'}
+  - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:arrow-right-bold$$', h: RGUI}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F10
@@ -177,12 +177,12 @@ layers:
   - F3
   - {t: PRINTSCREEN, h: '$$mdi:apple-keyboard-caps$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:apple-keyboard-caps$$', s: '$$mdi:usb$$'}
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:play-pause$$', h: '$$mdi:apple-keyboard-caps$$'}
+  - $$mdi:skip-previous$$
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:skip-next$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
