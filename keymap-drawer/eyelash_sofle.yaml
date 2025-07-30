@@ -149,7 +149,7 @@ layers:
   - F7
   - F8
   - F9
-  - {t: A, h: 'Alt+Sft+$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:skip-next$$', h: 'Alt+Sft+$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: HOME, h: 'AltGr+Sft+$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -162,7 +162,7 @@ layers:
   - {t: F4, h: '$$mdi:apple-keyboard-option$$'}
   - {t: F5, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F6, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: A, h: 'Meh+$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:skip-previous$$', h: 'Meh+$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:play-pause$$', h: Ctl+AltGr+Sft+RGUI}
   - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:apple-keyboard-shift$$'}
