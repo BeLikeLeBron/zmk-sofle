@@ -218,11 +218,11 @@
 
         layer2 {
             bindings = <
-&trans  &trans          &trans         &trans          &trans           &trans                          &trans  &trans                        &trans                   &trans                  &trans               &trans                  &trans
-&trans  &kp F12         &kp F7         &kp F8          &kp F9           &HRML LA(LS(LCTRL)) A           &trans  &HRMR RA(RS(RCTRL)) HOME      &mmv MOVE_LEFT           &mmv MOVE_DOWN          &mmv MOVE_UP         &mmv MOVE_RIGHT         &trans
-&trans  &HRML LGUI F11  &HRML LALT F4  &HRML LCTRL F5  &HRML LSHIFT F6  &HRML LC(LA(LS(LEFT_GUI))) A    &trans  &HRMR RC(RA(RS(RGUI))) C_PP   &HRMR RSHIFT LEFT_ARROW  &HRMR RCTRL DOWN_ARROW  &HRMR RALT UP_ARROW  &HRMR RGUI RIGHT_ARROW  &trans
-&trans  &kp F10         &kp F1         &kp F2          &kp F3           &HRML CAPSLOCK PRINTSCREEN      &trans  &HRMRoutput CAPSLOCK OUT_TOG  &bt BT_PRV               &mkp LCLK               &mkp RCLK            &bt BT_NXT              &trans
-&trans  &trans          &trans         &trans          &trans           &trans                          &trans  &trans                        &trans                   &trans                  &trans               &trans
+&trans  &trans          &trans         &trans          &trans           &trans                               &trans  &trans                        &trans                   &trans                  &trans               &trans                  &trans
+&trans  &kp F12         &kp F7         &kp F8          &kp F9           &HRML LA(LS(LCTRL)) C_NEXT           &trans  &HRMR RA(RS(RCTRL)) HOME      &mmv MOVE_LEFT           &mmv MOVE_DOWN          &mmv MOVE_UP         &mmv MOVE_RIGHT         &trans
+&trans  &HRML LGUI F11  &HRML LALT F4  &HRML LCTRL F5  &HRML LSHIFT F6  &HRML LC(LA(LS(LEFT_GUI))) C_PREV    &trans  &HRMR RC(RA(RS(RGUI))) C_PP   &HRMR RSHIFT LEFT_ARROW  &HRMR RCTRL DOWN_ARROW  &HRMR RALT UP_ARROW  &HRMR RGUI RIGHT_ARROW  &trans
+&trans  &kp F10         &kp F1         &kp F2          &kp F3           &HRML CAPSLOCK PRINTSCREEN           &trans  &HRMRoutput CAPSLOCK OUT_TOG  &bt BT_PRV               &mkp LCLK               &mkp RCLK            &bt BT_NXT              &trans
+&trans  &trans          &trans         &trans          &trans           &trans                               &trans  &trans                        &trans                   &trans                  &trans               &trans
             >;
         };
 
