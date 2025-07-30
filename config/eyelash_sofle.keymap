@@ -176,7 +176,7 @@
         };
 
         layer6gaming1 {
-            bindings = <&lt 6 ESC>;
+            bindings = <&lt 6 ENTER>;
             key-positions = <55 56>;
             require-prior-idle-ms = <100>;
             layers = <4 5 6>;
@@ -208,11 +208,11 @@
 
         layer1 {
             bindings = <
-&trans  &trans          &trans             &trans          &trans               &trans                              &trans  &trans                          &trans              &trans              &trans             &trans                &trans
-&trans  &kp GRAVE       &kp N7             &kp N8          &kp N9               &HRML LA(LS(LCTRL)) APOS            &trans  &HRMR RA(RS(RCTRL)) BSLH        &kp LEFT_ARROW      &kp DOWN_ARROW      &kp UP_ARROW       &kp RIGHT_ARROW       &trans
-&trans  &HRML LGUI DOT  &HRML LEFT_ALT N4  &HRML LCTRL N5  &HRML LEFT_SHIFT N6  &HRML LC(LA(LS(LEFT_GUI))) EQUAL    &trans  &HRMR RC(RA(RS(RGUI))) PAGE_UP  &HRMR RSHIFT ENTER  &HRMR RCTRL ESCAPE  &HRMR RALT DELETE  &HRMR RGUI BACKSPACE  &trans
-&trans  &kp N0          &kp N1             &kp N2          &kp N3               &HRML CAPSLOCK MINUS                &trans  &HRMR CAPSLOCK PAGE_DOWN        &kp LEFT_BRACKET    &kp C_VOLUME_DOWN   &kp C_VOLUME_UP    &kp RIGHT_BRACKET     &trans
-&trans  &trans          &trans             &trans          &trans               &trans                              &trans  &trans                          &trans              &trans              &trans             &trans
+&trans  &trans          &trans             &trans          &trans               &trans                              &trans  &trans                          &trans                  &trans             &trans             &trans             &trans
+&trans  &kp GRAVE       &kp N7             &kp N8          &kp N9               &HRML LA(LS(LCTRL)) APOS            &trans  &HRMR RA(RS(RCTRL)) BSLH        &kp LEFT_ARROW          &kp DOWN_ARROW     &kp UP_ARROW       &kp RIGHT_ARROW    &trans
+&trans  &HRML LGUI DOT  &HRML LEFT_ALT N4  &HRML LCTRL N5  &HRML LEFT_SHIFT N6  &HRML LC(LA(LS(LEFT_GUI))) EQUAL    &trans  &HRMR RC(RA(RS(RGUI))) PAGE_UP  &HRMR RSHIFT BACKSPACE  &HRMR RCTRL ENTER  &HRMR RALT ESCAPE  &HRMR RGUI DEL     &trans
+&trans  &kp N0          &kp N1             &kp N2          &kp N3               &HRML CAPSLOCK MINUS                &trans  &HRMR CAPSLOCK PAGE_DOWN        &kp LEFT_BRACKET        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp RIGHT_BRACKET  &trans
+&trans  &trans          &trans             &trans          &trans               &trans                              &trans  &trans                          &trans                  &trans             &trans             &trans
             >;
         };
 
