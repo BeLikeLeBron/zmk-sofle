@@ -152,10 +152,10 @@ layers:
   - {t: '[', h: 'Alt+Sft+$$mdi:apple-keyboard-control$$', s: '{'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: HOME, h: 'AltGr+Sft+$$mdi:apple-keyboard-control$$'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: F11, h: LGUI}
@@ -166,8 +166,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: PLAY PAUSE, h: Ctl+AltGr+Sft+RGUI}
   - {t: '$$mdi:skip-previous$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:volume-low$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:volume-high$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:mouse-left-click-outline$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:mouse-right-click-outline$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:skip-next$$', h: RGUI}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
