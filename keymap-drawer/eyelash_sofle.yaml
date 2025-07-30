@@ -608,7 +608,7 @@ combos:
   k: {t: '$$mdi:keyboard-return$$', h: layer2}
   l: [layer0, layer1, layer2, layer3]
 - p: [55, 56]
-  k: {t: '$$mdi:keyboard-esc$$', h: layer6Gaming2}
+  k: {t: '$$mdi:keyboard-return$$', h: layer6Gaming2}
   l: [layer4, layer5Gaming1, layer6Gaming2]
 - p: [60, 61]
   k: {t: '$$mdi:backspace-reverse-outline$$', h: layer3}
