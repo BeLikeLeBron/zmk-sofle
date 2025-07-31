@@ -224,29 +224,29 @@
             bindings = <
 &trans  &trans          &trans             &trans          &trans               &trans                              &trans  &trans                          &trans                  &trans             &trans             &trans             &trans
 &trans  &kp GRAVE       &kp N7             &kp N8          &kp N9               &HRML LA(LS(LCTRL)) APOS            &trans  &HRMR RA(RS(RCTRL)) BSLH        &kp LEFT_ARROW          &kp DOWN_ARROW     &kp UP_ARROW       &kp RIGHT_ARROW    &trans
-&trans  &HRML LGUI DOT  &HRML LEFT_ALT N4  &HRML LCTRL N5  &HRML LEFT_SHIFT N6  &HRML LC(LA(LS(LEFT_GUI))) EQUAL    &trans  &HRMR RC(RA(RS(RGUI))) PAGE_UP  &HRMR RSHIFT BACKSPACE  &HRMR RCTRL ENTER  &HRMR RALT ESCAPE  &HRMR RGUI DEL     &trans
-&trans  &kp N0          &kp N1             &kp N2          &kp N3               &HRML CAPSLOCK MINUS                &trans  &HRMR CAPSLOCK PAGE_DOWN        &kp LEFT_BRACKET        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp RIGHT_BRACKET  &trans
+&trans  &HRML LGUI DOT  &HRML LEFT_ALT N4  &HRML LCTRL N5  &HRML LEFT_SHIFT N6  &HRML LC(LA(LS(LEFT_GUI))) MINUS    &trans  &HRMR RC(RA(RS(RGUI))) PAGE_UP  &HRMR RSHIFT BACKSPACE  &HRMR RCTRL ENTER  &HRMR RALT ESCAPE  &HRMR RGUI DEL     &trans
+&trans  &kp N0          &kp N1             &kp N2          &kp N3               &HRML CAPSLOCK EQUAL                &trans  &HRMR CAPSLOCK PAGE_DOWN        &kp LEFT_BRACKET        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp RIGHT_BRACKET  &trans
 &trans  &trans          &trans             &trans          &trans               &trans                              &trans  &trans                          &trans                  &trans             &trans             &trans
             >;
         };
 
         layer2 {
             bindings = <
-&trans  &trans          &trans         &trans          &trans           &trans                               &trans  &trans                        &trans                   &trans                  &trans               &trans                  &trans
-&trans  &kp F12         &kp F7         &kp F8          &kp F9           &HRML LA(LS(LCTRL)) C_NEXT           &trans  &HRMR RA(RS(RCTRL)) HOME      &mmv MOVE_LEFT           &mmv MOVE_DOWN          &mmv MOVE_UP         &mmv MOVE_RIGHT         &trans
-&trans  &HRML LGUI F11  &HRML LALT F4  &HRML LCTRL F5  &HRML LSHIFT F6  &HRML LC(LA(LS(LEFT_GUI))) C_PREV    &trans  &HRMR RC(RA(RS(RGUI))) C_PP   &HRMR RSHIFT LEFT_ARROW  &HRMR RCTRL DOWN_ARROW  &HRMR RALT UP_ARROW  &HRMR RGUI RIGHT_ARROW  &trans
-&trans  &kp F10         &kp F1         &kp F2          &kp F3           &HRML CAPSLOCK PRINTSCREEN           &trans  &HRMRoutput CAPSLOCK OUT_TOG  &bt BT_PRV               &mkp LCLK               &mkp RCLK            &bt BT_NXT              &trans
-&trans  &trans          &trans         &trans          &trans           &trans                               &trans  &trans                        &trans                   &trans                  &trans               &trans
+&trans  &trans          &trans         &trans          &trans           &trans                             &trans  &trans                                &trans                   &trans                  &trans               &trans                  &trans
+&trans  &kp F12         &kp F7         &kp F8          &kp F9           &HRML LA(LS(LCTRL)) C_NEXT         &trans  &HRMR RA(RS(RCTRL)) C_AC_FORWARD      &mmv MOVE_LEFT           &mmv MOVE_DOWN          &mmv MOVE_UP         &mmv MOVE_RIGHT         &trans
+&trans  &HRML LGUI F11  &HRML LALT F4  &HRML LCTRL F5  &HRML LSHIFT F6  &HRML LC(LA(LS(LEFT_GUI))) C_PP    &trans  &HRMRoutput RC(RA(RS(RGUI))) OUT_TOG  &HRMR RSHIFT LEFT_ARROW  &HRMR RCTRL DOWN_ARROW  &HRMR RALT UP_ARROW  &HRMR RGUI RIGHT_ARROW  &trans
+&trans  &kp F10         &kp F1         &kp F2          &kp F3           &HRML CAPSLOCK C_PREV              &trans  &HRMR CAPSLOCK C_AC_BACK              &bt BT_PRV               &mkp LCLK               &mkp RCLK            &bt BT_NXT              &trans
+&trans  &trans          &trans         &trans          &trans           &trans                             &trans  &trans                                &trans                   &trans                  &trans               &trans
             >;
         };
 
         layer3 {
             bindings = <
-&trans  &trans             &trans           &trans           &trans           &trans                               &trans  &trans         &trans           &trans     &trans        &trans           &trans
-&trans  &ext_power EP_TOG  &soft_off        &trans           &bt BT_CLR       &kp LA(LS(LCTRL))                    &trans  &kp KP_DIVIDE  &kp KP_N7        &kp KP_N8  &kp KP_N9     &kp KP_ASTERISK  &soft_off
-&trans  &rgb_ug RGB_TOG    &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &HRML LC(LA(LS(LGUI))) KP_NUMLOCK    &trans  &kp KP_DOT     &kp KP_NUMBER_4  &kp KP_N5  &kp KP_N6     &kp KP_PLUS      &sys_reset
-&trans  &trans             &bootloader      &sys_reset       &rgb_ug RGB_BRD  &HRML CAPSLOCK C_AC_REDO             &trans  &kp KP_N0      &kp KP_N1        &kp KP_N2  &kp KP_N3     &kp KP_MINUS     &kp KP_ENTER
-&trans  &trans             &trans           &trans           &trans           &trans                               &trans  &trans         &trans           &trans     &kp KP_EQUAL  &trans
+&trans  &trans                 &trans               &trans                 &trans                     &trans                                &trans  &trans         &trans           &trans     &trans     &trans        &trans
+&trans  &ext_power EP_TOG      &rgb_ug RGB_TOG      &rgb_ug RGB_EFF        &rgb_ug RGB_HUI            &rgb_ug RGB_BRD                       &trans  &kp KP_DIVIDE  &kp KP_N7        &kp KP_N8  &kp KP_N9  &sys_reset    &trans
+&trans  &HRML LEFT_GUI KP_NUM  &HRML LALT KP_EQUAL  &HRML LCTRL KP_DIVIDE  &HRML LEFT_SHIFT KP_ENTER  &HRML LC(LA(LS(LGUI))) KP_ASTERISK    &trans  &kp KP_DOT     &kp KP_NUMBER_4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS  &trans
+&trans  &HRMRLayTOG 3 COMMA    &soft_off            &sys_reset             &bootloader                &bt BT_CLR                            &trans  &kp KP_N0      &kp KP_N1        &kp KP_N2  &kp KP_N3  &kp KP_PLUS   &trans
+&trans  &trans                 &trans               &trans                 &trans                     &trans                                &trans  &trans         &trans           &trans     &trans     &trans
             >;
         };
 
