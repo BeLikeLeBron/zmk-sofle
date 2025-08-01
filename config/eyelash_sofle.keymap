@@ -120,6 +120,20 @@
         hold-trigger-key-positions = <6 7 8 9 10 11 12 19 20 21 22 23 24 25 32 33 34 35 36 37 38 45 46 47 48 49 50 51 52 57 58 59 60 61 62 63 56 55 54 53>;
     };
 
+    HRMLoutput: HRMLoutput {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HRMLOUTPUT";
+        bindings = <&tog>, <&out>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <280>;
+        quick-tap-ms = <175>;
+        flavor = "balanced";
+        hold-trigger-key-positions = <53 55 56 57 52 19 58 6 45 32 63 62 61 60 59 54 7 8 9 10 11 12 20 21 22 23 24 25 33 34 35 36 37 38 46 47 48 49 50 51 61 62 63>;
+        hold-trigger-on-release;
+        require-prior-idle-ms = <150>;
+    };
+
     behaviors {
     };
 
@@ -202,6 +216,13 @@
             require-prior-idle-ms = <100>;
             layers = <0 2 1 3>;
         };
+
+        BtCLR {
+            bindings = <&bt BT_CLR>;
+            key-positions = <14 24>;
+            require-prior-idle-ms = <100>;
+            layers = <3>;
+        };
     };
 
     keymap {
@@ -232,21 +253,21 @@
 
         layer2 {
             bindings = <
-&trans  &trans          &trans         &trans          &trans           &trans                             &trans  &trans                                &trans                   &trans                  &trans               &trans                  &trans
-&trans  &kp F12         &kp F7         &kp F8          &kp F9           &HRML LA(LS(LCTRL)) C_NEXT         &trans  &HRMR RA(RS(RCTRL)) C_AC_FORWARD      &mmv MOVE_LEFT           &mmv MOVE_DOWN          &mmv MOVE_UP         &mmv MOVE_RIGHT         &trans
-&trans  &HRML LGUI F11  &HRML LALT F4  &HRML LCTRL F5  &HRML LSHIFT F6  &HRML LC(LA(LS(LEFT_GUI))) C_PP    &trans  &HRMRoutput RC(RA(RS(RGUI))) OUT_TOG  &HRMR RSHIFT LEFT_ARROW  &HRMR RCTRL DOWN_ARROW  &HRMR RALT UP_ARROW  &HRMR RGUI RIGHT_ARROW  &trans
-&trans  &kp F10         &kp F1         &kp F2          &kp F3           &HRML CAPSLOCK C_PREV              &trans  &HRMR CAPSLOCK C_AC_BACK              &bt BT_PRV               &mkp LCLK               &mkp RCLK            &bt BT_NXT              &trans
-&trans  &trans          &trans         &trans          &trans           &trans                             &trans  &trans                                &trans                   &trans                  &trans               &trans
+&trans  &trans          &trans         &trans          &trans           &trans                             &trans  &trans                     &trans             &trans             &trans            &trans            &trans
+&trans  &kp F12         &kp F7         &kp F8          &kp F9           &HRML LA(LS(LCTRL)) C_NEXT         &trans  &HRMR RA(RS(RCTRL)) TILDE  &kp AMPS           &kp STAR           &kp LPAR          &kp DQT           &trans
+&trans  &HRML LGUI F11  &HRML LALT F4  &HRML LCTRL F5  &HRML LSHIFT F6  &HRML LC(LA(LS(LEFT_GUI))) C_PP    &trans  &HRMR RC(RA(RS(RGUI))) GT  &HRMR RSHIFT DLLR  &HRMR RCTRL PRCNT  &HRMR RALT CARET  &HRMR RGUI UNDER  &trans
+&trans  &kp F10         &kp F1         &kp F2          &kp F3           &HRML CAPSLOCK C_PREV              &trans  &HRMR CAPSLOCK RPAR        &kp EXCL           &kp AT             &kp HASH          &kp PLUS          &trans
+&trans  &trans          &trans         &trans          &trans           &trans                             &trans  &trans                     &trans             &trans             &trans            &trans
             >;
         };
 
         layer3 {
             bindings = <
-&trans  &trans                 &trans               &trans                 &trans                     &trans                                &trans  &trans         &trans           &trans     &trans     &trans        &trans
-&trans  &ext_power EP_TOG      &rgb_ug RGB_TOG      &rgb_ug RGB_EFF        &rgb_ug RGB_HUI            &rgb_ug RGB_BRD                       &trans  &kp KP_DIVIDE  &kp KP_N7        &kp KP_N8  &kp KP_N9  &sys_reset    &trans
-&trans  &HRML LEFT_GUI KP_NUM  &HRML LALT KP_EQUAL  &HRML LCTRL KP_DIVIDE  &HRML LEFT_SHIFT KP_ENTER  &HRML LC(LA(LS(LGUI))) KP_ASTERISK    &trans  &kp KP_DOT     &kp KP_NUMBER_4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS  &trans
-&trans  &HRMRLayTOG 3 COMMA    &soft_off            &sys_reset             &bootloader                &bt BT_CLR                            &trans  &kp KP_N0      &kp KP_N1        &kp KP_N2  &kp KP_N3  &kp KP_PLUS   &trans
-&trans  &trans                 &trans               &trans                 &trans                     &trans                                &trans  &trans         &trans           &trans     &trans     &trans
+&trans  &ext_power EP_TOG      &rgb_ug RGB_TOG      &rgb_ug RGB_EFF        &rgb_ug RGB_HUI            &rgb_ug RGB_HUD                       &trans  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD
+&trans  &mmv MOVE_LEFT         &mmv MOVE_DOWN       &mmv MOVE_UP           &mmv MOVE_RIGHT            &mkp LCLK                             &trans  &kp KP_DIVIDE    &kp KP_N7        &kp KP_N8        &kp KP_N9        &sys_reset       &bootloader
+&trans  &HRML LEFT_GUI KP_NUM  &HRML LALT KP_EQUAL  &HRML LCTRL KP_DIVIDE  &HRML LEFT_SHIFT KP_ENTER  &HRML LC(LA(LS(LGUI))) KP_ASTERISK    &trans  &kp KP_DOT       &kp KP_NUMBER_4  &kp KP_N5        &kp KP_N6        &kp KP_MINUS     &trans
+&trans  &HRMLoutput 3 OUT_TOG  &soft_off            &sys_reset             &bootloader                &mkp RCLK                             &trans  &kp KP_N0        &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp KP_PLUS      &trans
+&trans  &trans                 &trans               &trans                 &trans                     &trans                                &trans  &trans           &trans           &trans           &trans           &trans
             >;
         };
 
