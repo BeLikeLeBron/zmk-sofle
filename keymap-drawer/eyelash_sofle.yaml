@@ -209,7 +209,7 @@ layers:
   - RGB SAD
   - RGB SPI
   - RGB SPD
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&soft_off'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
@@ -220,9 +220,9 @@ layers:
   - KP 7
   - KP 8
   - KP 9
-  - KP MINUS
-  - $$mdi:progress-download$$
+  - {t: ',', s: <}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: KP NUM, h: '$$mdi:apple-keyboard-command$$'}
   - {t: KP EQUAL, h: '$$mdi:apple-keyboard-option$$'}
   - {t: KP DIVIDE, h: '$$mdi:apple-keyboard-control$$'}
@@ -233,21 +233,21 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - KP PLUS
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:toggle-switch$$', h: layer3, s: '$$mdi:usb$$'}
-  - '&soft_off'
+  - KP MINUS
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:progress-download$$
+  - {t: '$$mdi:toggle-switch$$', h: layer3, s: '$$mdi:usb$$'}
+  - AC CUT
+  - AC COPY
+  - AC PASTE
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
   - KP 1
   - KP 2
   - KP 3
-  - KP ENTER
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP PLUS
+  - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
