@@ -220,14 +220,14 @@ layers:
   - KP 7
   - KP 8
   - KP 9
-  - {t: ',', s: <}
+  - KP MULTIPLY
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: KP NUM, h: '$$mdi:apple-keyboard-command$$'}
   - {t: KP EQUAL, h: '$$mdi:apple-keyboard-option$$'}
   - {t: KP DIVIDE, h: '$$mdi:apple-keyboard-control$$'}
   - {t: KP ENTER, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: KP ASTERISK, h: Meh+LGUI}
+  - {t: '$$mdi:mouse-right-click-outline$$', h: Meh+LGUI}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP DOT
   - KP 4
@@ -240,7 +240,7 @@ layers:
   - AC CUT
   - AC COPY
   - AC PASTE
-  - $$mdi:mouse-right-click-outline$$
+  - AC REDO
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
   - KP 1
