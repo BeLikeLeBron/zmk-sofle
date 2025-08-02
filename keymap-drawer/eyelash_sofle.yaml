@@ -322,7 +322,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-space$$', h: Layer5Gaming1}
-  - {t: '$$mdi:backspace$$', h: layer6Gaming2}
+  - {t: '$$mdi:backspace$$', h: Layer6Gaming2}
   - RIGHT GUI
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   Layer5Gaming1:
@@ -390,7 +390,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  layer6Gaming2:
+  Layer6Gaming2:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -452,6 +452,71 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  Layer7Gaming3:
+  - '&soft_off'
+  - EP TOG
+  - RGB TOG
+  - RGB EFF
+  - RGB HUI
+  - RGB HUD
+  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB BRI
+  - RGB BRD
+  - RGB SAI
+  - RGB SAD
+  - RGB SPI
+  - RGB SPD
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP DIVIDE
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MULTIPLY
+  - '&key_repeat'
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - {t: KP NUM, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: KP EQUAL, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: KP DIVIDE, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: KP ENTER, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:mouse-right-click-outline$$', h: Meh+LGUI}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP DOT
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP MINUS
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - $$mdi:progress-download$$
+  - AC UNDO
+  - AC CUT
+  - AC COPY
+  - {t: AC PASTE, h: layer3}
+  - AC REDO
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP PLUS
+  - $$mdi:progress-download$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -591,7 +656,7 @@ combos:
   l: [layer0]
 - p: [53, 55]
   k: {t: layer0, h: toggle}
-  l: [layer1, layer3, layer2, layer4, Layer5Gaming1, layer6Gaming2]
+  l: [layer1, layer3, layer2, layer4, Layer5Gaming1, Layer6Gaming2]
 - p: [17, 16]
   k: $$mdi:keyboard-esc$$
   l: [layer0, layer2, layer1, layer3]
@@ -605,11 +670,11 @@ combos:
   k: {t: '$$mdi:keyboard-return$$', h: layer2}
   l: [layer0, layer1, layer2, layer3]
 - p: [55, 56]
-  k: {t: '$$mdi:keyboard-return$$', h: layer6Gaming2}
-  l: [layer4, Layer5Gaming1, layer6Gaming2]
+  k: {t: '$$mdi:keyboard-return$$', h: Layer6Gaming2}
+  l: [layer4, Layer5Gaming1, Layer6Gaming2]
 - p: [60, 61]
   k: {t: '$$mdi:backspace-reverse-outline$$', h: layer3}
-  l: [layer0, layer2, layer1, layer3, layer4, Layer5Gaming1, layer6Gaming2]
+  l: [layer0, layer2, layer1, layer3]
 - p: [29, 17]
   k: {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   l: [layer0, layer2, layer1, layer3]
@@ -619,3 +684,6 @@ combos:
 - p: [14, 24]
   k: $$mdi:bluetooth-off$$
   l: [layer3]
+- p: [60, 61]
+  k: {t: '$$mdi:backspace-reverse-outline$$', h: Layer7Gaming3}
+  l: [layer4, Layer5Gaming1, Layer6Gaming2, Layer7Gaming3]
