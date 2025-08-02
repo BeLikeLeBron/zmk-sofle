@@ -41,10 +41,10 @@ layers:
   - {t: '''', h: RGUI, s: '"'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: Z, h: layer3}
+  - Z
   - X
   - C
-  - V
+  - {t: V, h: layer3}
   - {t: B, h: '$$mdi:apple-keyboard-caps$$'}
   - $$mdi:arrow-right-bold$$
   - {t: N, h: '$$mdi:apple-keyboard-caps$$'}
@@ -236,10 +236,10 @@ layers:
   - KP MINUS
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:progress-download$$
-  - {t: AC UNDO, h: layer3}
+  - AC UNDO
   - AC CUT
   - AC COPY
-  - AC PASTE
+  - {t: AC PASTE, h: layer3}
   - AC REDO
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
