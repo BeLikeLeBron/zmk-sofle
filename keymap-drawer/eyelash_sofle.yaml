@@ -221,7 +221,7 @@ layers:
   - KP 8
   - KP 9
   - KP MULTIPLY
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&key_repeat'
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: KP NUM, h: '$$mdi:apple-keyboard-command$$'}
   - {t: KP EQUAL, h: '$$mdi:apple-keyboard-option$$'}
