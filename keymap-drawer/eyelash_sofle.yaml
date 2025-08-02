@@ -687,3 +687,6 @@ combos:
 - p: [60, 61]
   k: {t: '$$mdi:backspace-reverse-outline$$', h: Layer7Gaming3}
   l: [layer4, Layer5Gaming1, Layer6Gaming2, Layer7Gaming3]
+- p: [18, 31]
+  k: $$mdi:mouse-scroll-wheel$$
+  l: [layer3, Layer7Gaming3]
