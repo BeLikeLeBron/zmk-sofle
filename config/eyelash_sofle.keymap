@@ -192,7 +192,7 @@
         l3anddelete {
             bindings = <&lt 3 DEL>;
             key-positions = <60 61>;
-            layers = <0 2 1 3 4 5 6>;
+            layers = <0 2 1 3>;
             require-prior-idle-ms = <100>;
         };
 
@@ -215,6 +215,13 @@
             key-positions = <14 24>;
             require-prior-idle-ms = <100>;
             layers = <3>;
+        };
+
+        layer7anddelete {
+            bindings = <&lt 7 DEL>;
+            key-positions = <60 61>;
+            require-prior-idle-ms = <100>;
+            layers = <4 5 6 7>;
         };
     };
 
@@ -287,13 +294,23 @@
             >;
         };
 
-        layer6Gaming2 {
+        Layer6Gaming2 {
             bindings = <
 &trans  &trans          &trans         &trans          &trans           &trans                                     &trans  &trans                     &trans             &trans             &trans            &trans            &trans
 &trans  &kp F12         &kp F7         &kp F8          &kp F9           &HRML LA(LS(LCTRL)) BACKSLASH              &trans  &HRMR RA(RS(RCTRL)) TILDE  &kp AMPS           &kp STAR           &kp LPAR          &kp COLON         &trans
 &trans  &HRML LGUI F11  &HRML LALT F4  &HRML LCTRL F5  &HRML LSHIFT F6  &HRML LC(LA(LS(LEFT_GUI))) LEFT_BRACKET    &trans  &HRMR RC(RA(RS(RGUI))) GT  &HRMR RSHIFT DLLR  &HRMR RCTRL PRCNT  &HRMR RALT CARET  &HRMR RGUI UNDER  &trans
 &trans  &kp F10         &kp F1         &kp F2          &kp F3           &HRML CAPSLOCK RIGHT_BRACKET               &trans  &HRMR CAPSLOCK RPAR        &kp EXCL           &kp AT             &kp HASH          &kp PLUS          &trans
 &trans  &trans          &trans         &trans          &trans           &trans                                     &trans  &trans                     &trans             &trans             &trans            &trans
+            >;
+        };
+
+        Layer7Gaming3 {
+            bindings = <
+&soft_off     &ext_power EP_TOG      &rgb_ug RGB_TOG      &rgb_ug RGB_EFF        &rgb_ug RGB_HUI            &rgb_ug RGB_HUD                     &trans  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD
+&out OUT_TOG  &mmv MOVE_LEFT         &mmv MOVE_DOWN       &mmv MOVE_UP           &mmv MOVE_RIGHT            &mkp LCLK                           &trans  &kp KP_DIVIDE    &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp KP_MULTIPLY  &key_repeat
+&sys_reset    &HRML LEFT_GUI KP_NUM  &HRML LALT KP_EQUAL  &HRML LCTRL KP_DIVIDE  &HRML LEFT_SHIFT KP_ENTER  &HRMLmouse LC(LA(LS(LGUI))) RCLK    &trans  &kp KP_DOT       &kp KP_NUMBER_4  &kp KP_N5        &kp KP_N6        &kp KP_MINUS     &sys_reset
+&bootloader   &kp C_AC_UNDO          &kp C_AC_CUT         &kp C_AC_COPY          &HRMRLayTOG 3 C_AC_PASTE   &kp C_AC_REDO                       &trans  &kp KP_N0        &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp KP_PLUS      &bootloader
+&trans        &trans                 &trans               &trans                 &trans                     &trans                              &trans  &trans           &trans           &trans           &trans           &trans
             >;
         };
 
@@ -304,7 +321,7 @@
 &kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
 &kp CAPS    &kp A      &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
 &kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 8   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 9      &kp RIGHT_SHIFT  &kp DELETE
+&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 9   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 10     &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
