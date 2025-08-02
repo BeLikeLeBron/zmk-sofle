@@ -175,13 +175,6 @@
             layers = <0 1 2 3>;
         };
 
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <35 34>;
-            require-prior-idle-ms = <100>;
-            layers = <0 2 1 3>;
-        };
-
         layer1 {
             bindings = <&lt 2 ENTER>;
             key-positions = <55 56>;
@@ -189,7 +182,7 @@
             require-prior-idle-ms = <100>;
         };
 
-        layer6gaming1 {
+        layer6gaming2 {
             bindings = <&lt 6 ENTER>;
             key-positions = <55 56>;
             require-prior-idle-ms = <100>;
@@ -199,7 +192,7 @@
         l3anddelete {
             bindings = <&lt 3 DEL>;
             key-positions = <60 61>;
-            layers = <0 2 1 3>;
+            layers = <0 2 1 3 4 5 6>;
             require-prior-idle-ms = <100>;
         };
 
@@ -284,23 +277,23 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
-        layer5Gaming1 {
+        Layer5Gaming1 {
             bindings = <
-&trans  &trans     &trans  &trans  &trans  &trans       &trans  &trans         &trans          &trans          &trans        &trans           &trans
-&trans  &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp APOS     &trans  &kp BSLH       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
-&trans  &kp DOT    &kp N4  &kp N5  &kp N6  &kp EQUAL    &trans  &kp PAGE_UP    &mkp LCLK       &mkp RCLK       &mkp MCLK     &kp DELETE       &trans
-&trans  &kp N0     &kp N1  &kp N2  &kp N3  &kp MINUS    &trans  &kp PAGE_DOWN  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
-&trans  &trans     &trans  &trans  &trans  &trans       &trans  &trans         &trans          &trans          &trans        &trans
+&trans  &trans     &trans  &trans  &trans  &trans       &trans  &trans                            &trans                  &trans             &trans             &trans           &trans
+&trans  &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp SEMI     &trans  &HRMR RA(RS(RCTRL)) PAGE_UP       &kp LEFT_ARROW          &kp DOWN_ARROW     &kp UP_ARROW       &kp RIGHT_ARROW  &trans
+&trans  &kp DOT    &kp N4  &kp N5  &kp N6  &kp MINUS    &trans  &HRMR RC(RA(RS(RGUI))) PAGE_DOWN  &HRMR RSHIFT BACKSPACE  &HRMR RCTRL ENTER  &HRMR RALT ESCAPE  &HRMR RGUI DEL   &trans
+&trans  &kp N0     &kp N1  &kp N2  &kp N3  &kp EQUAL    &trans  &HRMR CAPSLOCK C_PP               &kp C_PREV              &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp C_NEXT       &trans
+&trans  &trans     &trans  &trans  &trans  &trans       &trans  &trans                            &trans                  &trans             &trans             &trans
             >;
         };
 
         layer6Gaming2 {
             bindings = <
-&trans  &trans   &trans  &trans  &trans  &trans               &trans  &trans        &trans          &trans             &trans           &trans           &trans
-&trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp LEFT_BRACKET     &trans  &kp HOME      &kp LEFT_ARROW  &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT_ARROW  &trans
-&trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp RIGHT_BRACKET    &trans  &kp C_PP      &kp C_PREV      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT       &trans
-&trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp PRINTSCREEN      &trans  &out OUT_TOG  &bt BT_SEL 0    &bt BT_SEL 1       &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4
-&trans  &trans   &trans  &trans  &trans  &trans               &trans  &trans        &trans          &trans             &trans           &trans
+&trans  &trans          &trans         &trans          &trans           &trans                                     &trans  &trans                     &trans             &trans             &trans            &trans            &trans
+&trans  &kp F12         &kp F7         &kp F8          &kp F9           &HRML LA(LS(LCTRL)) BACKSLASH              &trans  &HRMR RA(RS(RCTRL)) TILDE  &kp AMPS           &kp STAR           &kp LPAR          &kp COLON         &trans
+&trans  &HRML LGUI F11  &HRML LALT F4  &HRML LCTRL F5  &HRML LSHIFT F6  &HRML LC(LA(LS(LEFT_GUI))) LEFT_BRACKET    &trans  &HRMR RC(RA(RS(RGUI))) GT  &HRMR RSHIFT DLLR  &HRMR RCTRL PRCNT  &HRMR RALT CARET  &HRMR RGUI UNDER  &trans
+&trans  &kp F10         &kp F1         &kp F2          &kp F3           &HRML CAPSLOCK RIGHT_BRACKET               &trans  &HRMR CAPSLOCK RPAR        &kp EXCL           &kp AT             &kp HASH          &kp PLUS          &trans
+&trans  &trans          &trans         &trans          &trans           &trans                                     &trans  &trans                     &trans             &trans             &trans            &trans
             >;
         };
 
