@@ -337,11 +337,11 @@
 
         Layer8 {
             bindings = <
-&trans  &trans                &trans              &trans             &trans                      &trans                                  &trans  &trans                            &trans                  &trans             &trans             &trans           &trans
-&trans  &kp LEFT_ARROW        &kp DOWN_ARROW      &kp UP_ARROW       &kp RIGHT_ARROW             &HRML LA(LS(LCTRL)) PAGE_UP             &trans  &HRMRMouse RA(RS(RCTRL)) LCLK     &mmv MOVE_LEFT          &mmv MOVE_DOWN     &mmv MOVE_UP       &mmv MOVE_RIGHT  &trans
-&trans  &HRML LGUI DEL        &HRML LEFT_ALT ESC  &HRML LCTRL ENTER  &HRML LEFT_SHIFT BACKSPACE  &HRML LC(LA(LS(LEFT_GUI))) PAGE_DOWN    &trans  &HRMRMouse RC(RA(RS(RGUI))) RCLK  &HRMR RSHIFT BACKSPACE  &HRMR RCTRL ENTER  &HRMR RALT ESCAPE  &HRMR RGUI DEL   &trans
-&trans  &HRMRLayTOG 8 C_PREV  &kp C_VOLUME_DOWN   &kp C_VOLUME_UP    &kp C_NEXT                  &HRML CAPSLOCK C_PLAY_PAUSE             &trans  &HRMRMouse CAPSLOCK MCLK          &msc SCRL_LEFT          &msc SCRL_DOWN     &msc SCRL_UP       &msc SCRL_RIGHT  &trans
-&trans  &trans                &trans              &trans             &trans                      &trans                                  &trans  &trans                            &trans                  &trans             &trans             &trans
+&trans  &trans                &trans              &trans             &trans                      &trans                                  &trans  &trans                            &trans             &trans                 &trans              &trans           &trans
+&trans  &kp LEFT_ARROW        &kp DOWN_ARROW      &kp UP_ARROW       &kp RIGHT_ARROW             &HRML LA(LS(LCTRL)) PAGE_UP             &trans  &HRMRMouse RA(RS(RCTRL)) LCLK     &mmv MOVE_LEFT     &mmv MOVE_DOWN         &mmv MOVE_UP        &mmv MOVE_RIGHT  &trans
+&trans  &HRML LGUI DEL        &HRML LEFT_ALT ESC  &HRML LCTRL ENTER  &HRML LEFT_SHIFT BACKSPACE  &HRML LC(LA(LS(LEFT_GUI))) PAGE_DOWN    &trans  &HRMRMouse RC(RA(RS(RGUI))) RCLK  &HRMR RSHIFT HOME  &HRMR RCTRL PAGE_DOWN  &HRMR RALT PAGE_UP  &HRMR RGUI END   &trans
+&trans  &HRMRLayTOG 8 C_PREV  &kp C_VOLUME_DOWN   &kp C_VOLUME_UP    &kp C_NEXT                  &HRML CAPSLOCK C_PLAY_PAUSE             &trans  &HRMRMouse CAPSLOCK MCLK          &msc SCRL_LEFT     &msc SCRL_DOWN         &msc SCRL_UP        &msc SCRL_RIGHT  &trans
+&trans  &trans                &trans              &trans             &trans                      &trans                                  &trans  &trans                            &trans             &trans                 &trans              &trans
             >;
         };
 
