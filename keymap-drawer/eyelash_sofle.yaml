@@ -721,7 +721,7 @@ combos:
   l: [layer0]
 - p: [53, 55]
   k: {t: layer0, h: toggle}
-  l: [layer1, layer3, layer2, layer4, Layer5Gaming1, Layer6Gaming2]
+  l: [layer1, layer3, layer2, layer4, Layer5Gaming1, Layer6Gaming2, Layer7Gaming3, Layer8]
 - p: [17, 16]
   k: $$mdi:keyboard-esc$$
   l: [layer0, layer2, layer1, layer3]
@@ -733,19 +733,19 @@ combos:
   l: [layer0, layer1, layer2, layer3]
 - p: [55, 56]
   k: {t: '$$mdi:keyboard-return$$', h: layer2}
-  l: [layer0, layer1, layer2, layer3]
+  l: [layer0, layer1, layer2, layer3, Layer8]
 - p: [55, 56]
   k: {t: '$$mdi:keyboard-return$$', h: Layer6Gaming2}
   l: [layer4, Layer5Gaming1, Layer6Gaming2]
 - p: [60, 61]
   k: {t: '$$mdi:backspace-reverse-outline$$', h: layer3}
-  l: [layer0, layer2, layer1, layer3]
+  l: [layer0, layer2, layer1, layer3, Layer8]
 - p: [29, 17]
   k: {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  l: [layer0, layer2, layer1, layer3]
+  l: [layer0, layer2, layer1, layer3, Layer8]
 - p: [29, 43]
   k: {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  l: [layer0, layer2, layer1, layer3]
+  l: [layer0, layer2, layer1, layer3, Layer8]
 - p: [14, 24]
   k: $$mdi:bluetooth-off$$
   l: [layer3]
