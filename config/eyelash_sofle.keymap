@@ -164,7 +164,7 @@
         todefault {
             bindings = <&to 0>;
             key-positions = <53 55>;
-            layers = <1 3 2 4 5 6>;
+            layers = <1 3 2 4 5 6 7 8>;
             require-prior-idle-ms = <100>;
         };
 
@@ -192,7 +192,7 @@
         layer1 {
             bindings = <&lt 2 ENTER>;
             key-positions = <55 56>;
-            layers = <0 1 2 3>;
+            layers = <0 1 2 3 8>;
             require-prior-idle-ms = <100>;
         };
 
@@ -206,7 +206,7 @@
         l3anddelete {
             bindings = <&lt 3 DEL>;
             key-positions = <60 61>;
-            layers = <0 2 1 3>;
+            layers = <0 2 1 3 8>;
             require-prior-idle-ms = <100>;
         };
 
@@ -214,14 +214,14 @@
             bindings = <&bt BT_NXT>;
             key-positions = <29 17>;
             require-prior-idle-ms = <100>;
-            layers = <0 2 1 3>;
+            layers = <0 2 1 3 8>;
         };
 
         btp {
             bindings = <&bt BT_PRV>;
             key-positions = <29 43>;
             require-prior-idle-ms = <100>;
-            layers = <0 2 1 3>;
+            layers = <0 2 1 3 8>;
         };
 
         BtCLR {
