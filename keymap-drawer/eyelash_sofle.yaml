@@ -555,10 +555,10 @@ layers:
   - {t: PgDn, h: 'Meh+$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:mouse-right-click-outline$$', h: Ctl+AltGr+Sft+RGUI}
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: RGUI}
+  - {t: HOME, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: PgDn, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: PgUp, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: END, h: RGUI}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:skip-previous$$', h: Layer8}
