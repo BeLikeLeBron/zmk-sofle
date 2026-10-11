@@ -609,19 +609,19 @@ combos:
   l: [LAYER0, LAYER1, LAYER2, LAYER3]
 - p: [55, 56]
   k: {t: '$$mdi:keyboard-return$$', h: L6GAME2}
-  l: [L4GAME0, L5GAME1, L6GAME2]
+  l: [L4GAME0, L5GAME1, L6GAME2, L7GAME3]
 - p: [60, 61]
   k: {t: '$$mdi:backspace-reverse-outline$$', h: LAYER3}
   l: [LAYER0, LAYER2, LAYER1, LAYER3]
 - p: [29, 17]
   k: {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  l: [LAYER0, LAYER2, LAYER1, LAYER3]
+  l: [LAYER0, LAYER2, LAYER1, LAYER3, L8STNGS]
 - p: [29, 43]
   k: {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  l: [LAYER0, LAYER2, LAYER1, LAYER3]
+  l: [LAYER0, LAYER2, LAYER1, LAYER3, L8STNGS]
 - p: [14, 24]
   k: $$mdi:bluetooth-off$$
-  l: [LAYER3]
+  l: [LAYER3, L8STNGS]
 - p: [60, 61]
   k: {t: '$$mdi:backspace-reverse-outline$$', h: L7GAME3}
   l: [L4GAME0, L5GAME1, L6GAME2, L7GAME3]
@@ -638,5 +638,8 @@ combos:
   k: $$mdi:volume-low$$
   l: [LAYER0]
 - p: [50, 49]
+  k: {t: L8STNGS, h: toggle}
+  l: [LAYER0, L4GAME0, L8STNGS]
+- p: [39, 5]
   k: {t: L8STNGS, h: toggle}
   l: [LAYER0, L4GAME0, L8STNGS]

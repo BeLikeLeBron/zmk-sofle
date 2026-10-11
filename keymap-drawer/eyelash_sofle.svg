@@ -764,6 +764,14 @@ rect.held, rect.combo.held {
 <text x="812" y="214" class="combo tap layer-activator"><tspan style="font-size: 86%">L8STNGS</tspan></text>
 </a><text x="812" y="225" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-13">
+<path d="M168,130 l-125,84" class="combo"/>
+<path d="M168,130 l125,-84" class="combo"/>
+<rect rx="6" ry="6" x="154" y="117" width="28" height="26" class="combo"/>
+<a href="#L8STNGS">
+<text x="168" y="130" class="combo tap layer-activator"><tspan style="font-size: 86%">L8STNGS</tspan></text>
+</a><text x="168" y="141" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-LAYER1">
@@ -2352,6 +2360,14 @@ rect.held, rect.combo.held {
 <text x="812" y="214" class="combo tap layer-activator"><tspan style="font-size: 86%">L8STNGS</tspan></text>
 </a><text x="812" y="225" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-5">
+<path d="M168,130 l-125,84" class="combo"/>
+<path d="M168,130 l125,-84" class="combo"/>
+<rect rx="6" ry="6" x="154" y="117" width="28" height="26" class="combo"/>
+<a href="#L8STNGS">
+<text x="168" y="130" class="combo tap layer-activator"><tspan style="font-size: 86%">L8STNGS</tspan></text>
+</a><text x="168" y="141" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1941)" class="layer-L5GAME1">
@@ -3459,12 +3475,18 @@ rect.held, rect.combo.held {
 </a><text x="196" y="270" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
+<rect rx="6" ry="6" x="269" y="258" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="274" y="262" height="18" width="18.0" class="combo tap glyph mdi:keyboard-return"/>
+<a href="#L6GAME2">
+<text x="283" y="282" class="combo hold layer-activator"><tspan style="font-size: 86%">L6GAME2</tspan></text>
+</a></g>
+<g class="combo combopos-2">
 <rect rx="6" ry="6" x="627" y="258" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="632" y="262" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 <a href="#L7GAME3">
 <text x="641" y="282" class="combo hold layer-activator"><tspan style="font-size: 86%">L7GAME3</tspan></text>
 </a></g>
-<g class="combo combopos-2">
+<g class="combo combopos-3">
 <rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
 <use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="299" y="110" height="18" width="18.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
 </g>
@@ -3823,10 +3845,34 @@ rect.held, rect.combo.held {
 <text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 <g class="combo combopos-1">
+<rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="216" y="112" height="15" width="15.0" class="combo hold glyph mdi:arrow-down-bold"/>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="216" y="104" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="216" y="168" height="15" width="15.0" class="combo hold glyph mdi:arrow-up-bold"/>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="216" y="160" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+</g>
+<g class="combo combopos-3">
+<path d="M462,112 l-359,0" class="combo"/>
+<path d="M462,112 l359,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="99" width="28" height="26" class="combo"/>
+<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="453" y="103" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
+</g>
+<g class="combo combopos-4">
 <rect rx="6" ry="6" x="798" y="201" width="28" height="26" class="combo"/>
 <a href="#L8STNGS">
 <text x="812" y="214" class="combo tap layer-activator"><tspan style="font-size: 86%">L8STNGS</tspan></text>
 </a><text x="812" y="225" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-5">
+<path d="M168,130 l-125,84" class="combo"/>
+<path d="M168,130 l125,-84" class="combo"/>
+<rect rx="6" ry="6" x="154" y="117" width="28" height="26" class="combo"/>
+<a href="#L8STNGS">
+<text x="168" y="130" class="combo tap layer-activator"><tspan style="font-size: 86%">L8STNGS</tspan></text>
+</a><text x="168" y="141" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
