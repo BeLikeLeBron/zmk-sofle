@@ -129,9 +129,6 @@
         softoff {
             bindings = <&soft_off>;
             key-positions = <14 28 40>;
-            layers = <3 7>;
-            require-prior-idle-ms = <200>;
-
         };
 
         togaming {
@@ -330,7 +327,7 @@
 &kp C_MUTE  &kp LCTRL  &kp LEFT_ALT  &mt LEFT_SHIFT TAB  &lt 5 SPACE  &none     &none            &none   &lt 5 SPACE  &lt 6 BACKSPACE  &kp RIGHT_GUI  &key_repeat
             >;
 
-            display-name = "L4GAMING0";
+            display-name = "L4GAME0";
             sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
@@ -343,7 +340,7 @@
 &trans  &trans     &trans  &trans  &trans  &trans       &trans  &trans                             &trans                   &trans                &trans            &trans
             >;
 
-            display-name = "L5GAMING1";
+            display-name = "L5GAME1";
             sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
@@ -356,7 +353,7 @@
 &trans  &trans          &trans         &trans          &trans           &trans                                     &trans  &trans                     &trans             &trans             &trans            &trans
             >;
 
-            display-name = "L6GAMING2";
+            display-name = "L6GAME2";
             sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
@@ -369,7 +366,7 @@
 &trans        &trans                 &trans               &trans                 &trans                     &trans                              &trans  &trans           &trans           &trans           &trans           &trans
             >;
 
-            display-name = "L7GAMING0";
+            display-name = "L7GAME3";
             sensor-bindings = <&rsr_vol &rsr_trans>;
         };
     };
