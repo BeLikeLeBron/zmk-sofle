@@ -51,7 +51,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: L4GAMING0, s: '?'}
+  - {t: /, h: L4GAME0, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
@@ -260,7 +260,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  L4GAMING0:
+  L4GAME0:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -311,21 +311,21 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: L4GAMING0, s: '?'}
+  - {t: /, h: L4GAME0, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-space$$', h: L5GAMING1}
+  - {t: '$$mdi:keyboard-space$$', h: L5GAME1}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-space$$', h: L5GAMING1}
-  - {t: '$$mdi:backspace$$', h: L6GAMING2}
+  - {t: '$$mdi:keyboard-space$$', h: L5GAME1}
+  - {t: '$$mdi:backspace$$', h: L6GAME2}
   - RIGHT GUI
   - '&key_repeat'
-  L5GAMING1:
+  L5GAME1:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -390,7 +390,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  L6GAMING2:
+  L6GAME2:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -455,7 +455,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  L7GAMING0:
+  L7GAME3:
   - '&soft_off'
   - EP TOG
   - RGB TOG
@@ -499,7 +499,7 @@ layers:
   - AC UNDO
   - $$mdi:pan-down$$
   - $$mdi:pan-up$$
-  - {t: L7GAMING0, h: AC REDO}
+  - {t: L7GAME3, h: AC REDO}
   - '&key_repeat'
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
@@ -523,13 +523,12 @@ layers:
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
-  l: [LAYER3, L7GAMING0]
 - p: [53, 56]
-  k: {t: L4GAMING0, h: toggle}
+  k: {t: L4GAME0, h: toggle}
   l: [LAYER0]
 - p: [53, 55]
   k: {t: LAYER0, h: toggle}
-  l: [LAYER1, LAYER3, LAYER2, L4GAMING0, L5GAMING1, L6GAMING2, L7GAMING0]
+  l: [LAYER1, LAYER3, LAYER2, L4GAME0, L5GAME1, L6GAME2, L7GAME3]
 - p: [17, 16]
   k: $$mdi:keyboard-esc$$
   l: [LAYER0, LAYER2, LAYER1, LAYER3]
@@ -543,8 +542,8 @@ combos:
   k: {t: '$$mdi:keyboard-return$$', h: LAYER2}
   l: [LAYER0, LAYER1, LAYER2, LAYER3]
 - p: [55, 56]
-  k: {t: '$$mdi:keyboard-return$$', h: L6GAMING2}
-  l: [L4GAMING0, L5GAMING1, L6GAMING2]
+  k: {t: '$$mdi:keyboard-return$$', h: L6GAME2}
+  l: [L4GAME0, L5GAME1, L6GAME2]
 - p: [60, 61]
   k: {t: '$$mdi:backspace-reverse-outline$$', h: LAYER3}
   l: [LAYER0, LAYER2, LAYER1, LAYER3]
@@ -558,11 +557,11 @@ combos:
   k: $$mdi:bluetooth-off$$
   l: [LAYER3]
 - p: [60, 61]
-  k: {t: '$$mdi:backspace-reverse-outline$$', h: L7GAMING0}
-  l: [L4GAMING0, L5GAMING1, L6GAMING2, L7GAMING0]
+  k: {t: '$$mdi:backspace-reverse-outline$$', h: L7GAME3}
+  l: [L4GAME0, L5GAME1, L6GAME2, L7GAME3]
 - p: [18, 31]
   k: $$mdi:mouse-scroll-wheel$$
-  l: [LAYER3, L7GAMING0]
+  l: [LAYER3, L7GAME3]
 - p: [30, 31]
   k: $$mdi:keyboard-tab$$
   l: [LAYER0]
