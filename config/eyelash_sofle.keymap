@@ -247,7 +247,7 @@
             bindings = <&tog 8>;
             key-positions = <50 49>;
             require-prior-idle-ms = <200>;
-            layers = <0 4 8 9>;
+            layers = <0 4 8>;
             timeout-ms = <300>;
         };
     };
