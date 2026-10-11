@@ -385,7 +385,8 @@
 &trans        &trans             &trans           &trans           &trans           &trans             &trans  &trans           &trans           &trans           &trans           &trans
             >;
 
-            label = "L8SETTING";
+            label = "L8SETTINGS";
+            sensor-bindings = <&rsr_vol &rsr_trans>;
         };
     };
 };
