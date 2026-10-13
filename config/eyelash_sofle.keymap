@@ -289,7 +289,7 @@
 &kp TAB       &kp Q         &kp W         &lt 2 E             &kp R          &HRML LA(LS(LCTRL)) T       &kp DOWN_ARROW   &HRMR RA(RS(RCTRL)) Y          &kp U           &lt 2 I          &kp O         &kp P            &kp BSLH
 &kp CAPSLOCK  &HRML LGUI A  &HRML LALT S  &HRML LCTRL D       &HRML LSHFT F  &HRML LC(LA(LS(LGUI))) G    &kp LEFT_ARROW   &HRMR RC(RA(RS(RIGHT_GUI))) H  &HRMR RSHIFT J  &HRMR RCTRL K    &HRMR RALT L  &HRMR RGUI SEMI  &kp APOS
 &kp LSHIFT    &kp Z         &kp X         &kp C               &LayTog 3 V    &HRML CAPSLOCK B            &kp RIGHT_ARROW  &HRMR CAPSLOCK N               &kp M           &kp COMMA        &kp DOT       &LayTog 4 FSLH   &kp ENTER
-&kp C_MUTE    &kp LCTRL     &kp LEFT_ALT  &mt LEFT_SHIFT TAB  &lt 1 SPACE    &none                       &none            &none                          &lt 1 SPACE     &lt 2 BACKSPACE  &kp RGUI      &key_repeat
+&kp C_MUTE    &kp LCTRL     &kp LEFT_ALT  &mt LEFT_SHIFT TAB  &lt 1 SPACE    &none                       &none            &kp SPACE                      &lt 1 SPACE     &lt 2 BACKSPACE  &kp RGUI      &key_repeat
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
