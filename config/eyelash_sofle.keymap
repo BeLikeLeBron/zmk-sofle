@@ -298,11 +298,11 @@
 
         layer1 {
             bindings = <
-&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &trans               &kp C_VOICE_COMMAND                 &trans  &trans                             &trans                   &trans                &trans                  &kp PRINTSCREEN  &trans
-&trans  &kp GRAVE             &kp N7                &kp N8            &kp N9               &HRML LA(LS(LCTRL)) C_PP            &trans  &HRMR RA(RS(RCTRL)) PAGE_UP        &kp BACKSPACE            &kp ENTER             &kp ESCAPE              &kp DEL          &trans
-&trans  &HRML LGUI DOT        &HRML LEFT_ALT N4     &HRML LCTRL N5    &HRML LEFT_SHIFT N6  &HRML LC(LA(LS(LEFT_GUI))) MINUS    &trans  &HRMR RC(RA(RS(RGUI))) LEFT_ARROW  &HRMR RSHIFT DOWN_ARROW  &HRMR RCTRL UP_ARROW  &HRMR RALT RIGHT_ARROW  &HRMR RGUI APOS  &trans
-&trans  &kp N0                &kp N1                &kp N2            &kp N3               &HRML CAPSLOCK EQUAL                &trans  &HRMR CAPSLOCK PG_DN               &kp C_PREV               &kp C_VOLUME_DOWN     &kp C_VOLUME_UP         &kp C_NEXT       &trans
-&trans  &trans                &trans                &trans            &trans               &trans                              &trans  &trans                             &trans                   &trans                &trans                  &trans
+&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &trans               &kp C_VOICE_COMMAND                 &trans  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp GLOBE                &kp PRINTSCREEN       &kp C_SLEEP             &kp C_POWER      &trans
+&trans  &kp GRAVE             &kp N7                &kp N8            &kp N9               &HRML LA(LS(LCTRL)) C_PP            &trans  &HRMR RA(RS(RCTRL)) PAGE_UP           &kp BACKSPACE            &kp ENTER             &kp ESCAPE              &kp DEL          &trans
+&trans  &HRML LGUI DOT        &HRML LEFT_ALT N4     &HRML LCTRL N5    &HRML LEFT_SHIFT N6  &HRML LC(LA(LS(LEFT_GUI))) MINUS    &trans  &HRMR RC(RA(RS(RGUI))) LEFT_ARROW     &HRMR RSHIFT DOWN_ARROW  &HRMR RCTRL UP_ARROW  &HRMR RALT RIGHT_ARROW  &HRMR RGUI APOS  &trans
+&trans  &kp N0                &kp N1                &kp N2            &kp N3               &HRML CAPSLOCK EQUAL                &trans  &HRMR CAPSLOCK PG_DN                  &kp C_PREV               &kp C_VOLUME_DOWN     &kp C_VOLUME_UP         &kp C_NEXT       &trans
+&trans  &trans                &trans                &trans            &trans               &trans                              &trans  &trans                                &trans                   &trans                &trans                  &trans
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
