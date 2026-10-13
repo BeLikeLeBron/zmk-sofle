@@ -73,11 +73,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - VOICE COMMAND
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - AC NEXT KEYBOARD LAYOUT SELECT
+  - GLOBE
   - PRINTSCREEN
+  - SLEEP
+  - $$mdi:power-standby$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
