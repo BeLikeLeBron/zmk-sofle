@@ -289,7 +289,7 @@
 &kp TAB       &kp Q         &kp W         &lt 2 E             &kp R          &HRML LA(LS(LCTRL)) T       &kp DOWN_ARROW   &HRMR RA(RS(RCTRL)) Y          &kp U           &lt 2 I          &kp O         &kp P            &kp BSLH
 &kp CAPSLOCK  &HRML LGUI A  &HRML LALT S  &HRML LCTRL D       &HRML LSHFT F  &HRML LC(LA(LS(LGUI))) G    &kp LEFT_ARROW   &HRMR RC(RA(RS(RIGHT_GUI))) H  &HRMR RSHIFT J  &HRMR RCTRL K    &HRMR RALT L  &HRMR RGUI SEMI  &kp APOS
 &kp LSHIFT    &kp Z         &kp X         &kp C               &LayTog 3 V    &HRML CAPSLOCK B            &kp RIGHT_ARROW  &HRMR CAPSLOCK N               &kp M           &kp COMMA        &kp DOT       &LayTog 4 FSLH   &kp ENTER
-&kp C_MUTE    &kp LCTRL     &kp LEFT_ALT  &mt LEFT_SHIFT TAB  &lt 1 SPACE    &none                       &none            &kp SPACE                      &lt 1 SPACE     &lt 2 BACKSPACE  &kp RGUI      &key_repeat
+&kp C_MUTE    &kp LCTRL     &kp LEFT_ALT  &mt LEFT_SHIFT TAB  &lt 1 SPACE    &none                       &none            &none                          &lt 1 SPACE     &lt 2 BACKSPACE  &kp RGUI      &key_repeat
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -328,7 +328,7 @@
 &trans  &mmv MOVE_LEFT         &mmv MOVE_DOWN       &mmv MOVE_UP           &mmv MOVE_RIGHT            &mkp LCLK                           &trans  &kp KP_DIVIDE  &kp KP_N7        &kp KP_N8  &kp KP_N9  &kp KP_MULTIPLY  &trans
 &trans  &HRML LEFT_GUI KP_NUM  &HRML LALT KP_EQUAL  &HRML LCTRL KP_DIVIDE  &HRML LEFT_SHIFT KP_ENTER  &HRMLmouse LC(LA(LS(LGUI))) RCLK    &trans  &kp KP_DOT     &kp KP_NUMBER_4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS     &trans
 &trans  &kp C_AC_UNDO          &msc SCRL_DOWN       &msc SCRL_UP           &LayTogTap C_AC_REDO 3     &key_repeat                         &trans  &kp KP_N0      &kp KP_N1        &kp KP_N2  &kp KP_N3  &kp KP_PLUS      &trans
-&trans  &trans                 &trans               &trans                 &trans                     &trans                              &trans  &trans         &trans           &trans     &trans     &trans
+&trans  &trans                 &trans               &trans                 &kp SPACE                  &trans                              &trans  &trans         &kp SPACE        &trans     &trans     &trans
             >;
 
             display-name = "LAYER3";
