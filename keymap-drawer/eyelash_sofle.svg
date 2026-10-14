@@ -740,12 +740,12 @@ rect.held, rect.combo.held {
 </a></g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="216" y="112" height="15" width="15.0" class="combo hold glyph mdi:arrow-down-bold"/>
+<text x="224" y="126" class="combo hold">1</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="216" y="104" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="216" y="168" height="15" width="15.0" class="combo hold glyph mdi:arrow-up-bold"/>
+<text x="224" y="182" class="combo hold">2</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="216" y="160" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 <g class="combo combopos-9">
@@ -1180,12 +1180,12 @@ rect.held, rect.combo.held {
 </a></g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="216" y="112" height="15" width="15.0" class="combo hold glyph mdi:arrow-down-bold"/>
+<text x="224" y="126" class="combo hold">1</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="216" y="104" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="216" y="168" height="15" width="15.0" class="combo hold glyph mdi:arrow-up-bold"/>
+<text x="224" y="182" class="combo hold">2</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="216" y="160" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 <g class="combo combopos-7">
@@ -1210,30 +1210,35 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(84, 56)" class="key trans keypos-1">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(84, 56)" class="key keypos-1">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="24" class="key hold">1</text>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g transform="translate(140, 35)" class="key trans keypos-2">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(140, 35)" class="key keypos-2">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="24" class="key hold">2</text>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g transform="translate(196, 28)" class="key trans keypos-3">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(196, 28)" class="key keypos-3">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="24" class="key hold">3</text>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g transform="translate(252, 35)" class="key trans keypos-4">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(252, 35)" class="key keypos-4">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="24" class="key hold">4</text>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g transform="translate(308, 35)" class="key trans keypos-5">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(308, 35)" class="key keypos-5">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="24" class="key hold">5</text>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:bluetooth-connect"/>
 </g>
 <g transform="translate(462, 35)" class="key trans keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1565,12 +1570,12 @@ rect.held, rect.combo.held {
 </a></g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="216" y="112" height="15" width="15.0" class="combo hold glyph mdi:arrow-down-bold"/>
+<text x="224" y="126" class="combo hold">1</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="216" y="104" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="216" y="168" height="15" width="15.0" class="combo hold glyph mdi:arrow-up-bold"/>
+<text x="224" y="182" class="combo hold">2</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="216" y="160" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 <g class="combo combopos-7">
@@ -1595,30 +1600,45 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(84, 56)" class="key trans keypos-1">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(84, 56)" class="key keypos-1">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.9em">BT</tspan><tspan x="0" dy="1.2em">DISC</tspan>
+</text>
+<text x="0" y="24" class="key hold">0</text>
 </g>
-<g transform="translate(140, 35)" class="key trans keypos-2">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(140, 35)" class="key keypos-2">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.9em">BT</tspan><tspan x="0" dy="1.2em">DISC</tspan>
+</text>
+<text x="0" y="24" class="key hold">1</text>
 </g>
-<g transform="translate(196, 28)" class="key trans keypos-3">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(196, 28)" class="key keypos-3">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.9em">BT</tspan><tspan x="0" dy="1.2em">DISC</tspan>
+</text>
+<text x="0" y="24" class="key hold">2</text>
 </g>
-<g transform="translate(252, 35)" class="key trans keypos-4">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(252, 35)" class="key keypos-4">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.9em">BT</tspan><tspan x="0" dy="1.2em">DISC</tspan>
+</text>
+<text x="0" y="24" class="key hold">3</text>
 </g>
-<g transform="translate(308, 35)" class="key trans keypos-5">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(308, 35)" class="key keypos-5">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.9em">BT</tspan><tspan x="0" dy="1.2em">DISC</tspan>
+</text>
+<text x="0" y="24" class="key hold">4</text>
 </g>
 <g transform="translate(462, 35)" class="key trans keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1982,12 +2002,12 @@ rect.held, rect.combo.held {
 </a></g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="216" y="112" height="15" width="15.0" class="combo hold glyph mdi:arrow-down-bold"/>
+<text x="224" y="126" class="combo hold">1</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="216" y="104" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="216" y="168" height="15" width="15.0" class="combo hold glyph mdi:arrow-up-bold"/>
+<text x="224" y="182" class="combo hold">2</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="216" y="160" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 <g class="combo combopos-7">
@@ -3851,22 +3871,12 @@ rect.held, rect.combo.held {
 <text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="216" y="112" height="15" width="15.0" class="combo hold glyph mdi:arrow-down-bold"/>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="216" y="104" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="216" y="168" height="15" width="15.0" class="combo hold glyph mdi:arrow-up-bold"/>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="216" y="160" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-3">
 <path d="M462,112 l-359,0" class="combo"/>
 <path d="M462,112 l359,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="99" width="28" height="26" class="combo"/>
 <use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="453" y="103" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
-<g class="combo combopos-4">
+<g class="combo combopos-2">
 <path d="M756,130 l125,84" class="combo"/>
 <path d="M756,130 l-125,-84" class="combo"/>
 <rect rx="6" ry="6" x="742" y="117" width="28" height="26" class="combo"/>
@@ -3874,13 +3884,23 @@ rect.held, rect.combo.held {
 <text x="756" y="130" class="combo tap layer-activator"><tspan style="font-size: 86%">L8STNGS</tspan></text>
 </a><text x="756" y="141" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-3">
 <path d="M168,130 l-125,84" class="combo"/>
 <path d="M168,130 l125,-84" class="combo"/>
 <rect rx="6" ry="6" x="154" y="117" width="28" height="26" class="combo"/>
 <a href="#L8STNGS">
 <text x="168" y="130" class="combo tap layer-activator"><tspan style="font-size: 86%">L8STNGS</tspan></text>
 </a><text x="168" y="141" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="216" y="112" height="15" width="15.0" class="combo hold glyph mdi:arrow-down-bold"/>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="216" y="104" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="216" y="168" height="15" width="15.0" class="combo hold glyph mdi:arrow-up-bold"/>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="216" y="160" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 </g>
 </g>
