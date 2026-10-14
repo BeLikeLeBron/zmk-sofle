@@ -286,19 +286,19 @@
         toglayer3 {
             bindings = <&tog 3>;
             key-positions = <40 41>;
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <250>;
             layers = <0 3>;
         };
 
         togam {
             bindings = <&tog 4>;
-            key-positions = <50 49>;
+            key-positions = <50 51>;
             require-prior-idle-ms = <200>;
             layers = <0 4>;
         };
 
-        contextmenu {
-            bindings = <&kp K_APP>;
+        RightTab {
+            bindings = <&kp TAB>;
             key-positions = <23 24>;
             require-prior-idle-ms = <200>;
             layers = <0 2 1 3>;
@@ -324,6 +324,13 @@
             require-prior-idle-ms = <100>;
             layers = <8>;
         };
+
+        toglay3right {
+            bindings = <&tog 3>;
+            key-positions = <50 49>;
+            require-prior-idle-ms = <250>;
+            layers = <0 3>;
+        };
     };
 
     macros {
@@ -348,11 +355,11 @@
 
         layer0 {
             bindings = <
-&kp ESC       &kp N1        &kp N2        &kp N3              &kp N4         &kp N5                      &kp UP_ARROW     &kp N6                         &kp N7          &kp N8            &kp N9        &kp N0           &kp BACKSPACE
-&kp TAB       &kp Q         &kp W         &LayTapLeft 2 E     &kp R          &HRML LA(LS(LCTRL)) T       &kp DOWN_ARROW   &HRMR RA(RS(RCTRL)) Y          &kp U           &LayTapRight 2 I  &kp O         &kp P            &kp BSLH
-&kp CAPSLOCK  &HRML LGUI A  &HRML LALT S  &HRML LCTRL D       &HRML LSHFT F  &HRML LC(LA(LS(LGUI))) G    &kp LEFT_ARROW   &HRMR RC(RA(RS(RIGHT_GUI))) H  &HRMR RSHIFT J  &HRMR RCTRL K     &HRMR RALT L  &HRMR RGUI SEMI  &kp APOS
-&kp LSHIFT    &kp Z         &kp X         &kp C               &kp V          &HRML CAPSLOCK B            &kp RIGHT_ARROW  &HRMR CAPSLOCK N               &kp M           &kp COMMA         &kp DOT       &kp FSLH         &kp ENTER
-&kp C_MUTE    &kp LCTRL     &kp LEFT_ALT  &mt LEFT_SHIFT TAB  &lt 1 SPACE    &none                       &none            &none                          &lt 1 SPACE     &lt 2 BACKSPACE   &kp RGUI      &key_repeat
+&kp ESC       &kp N1        &kp N2        &kp N3              &kp N4           &kp N5                      &kp UP_ARROW     &kp N6                         &kp N7            &kp N8                &kp N9        &kp N0           &kp BACKSPACE
+&kp TAB       &kp Q         &kp W         &LayTapLeft 1 E     &kp R            &HRML LA(LS(LCTRL)) T       &kp DOWN_ARROW   &HRMR RA(RS(RCTRL)) Y          &kp U             &LayTapRight 1 I      &kp O         &kp P            &kp BSLH
+&kp CAPSLOCK  &HRML LGUI A  &HRML LALT S  &HRML LCTRL D       &HRML LSHFT F    &HRML LC(LA(LS(LGUI))) G    &kp LEFT_ARROW   &HRMR RC(RA(RS(RIGHT_GUI))) H  &HRMR RSHIFT J    &HRMR RCTRL K         &HRMR RALT L  &HRMR RGUI SEMI  &kp APOS
+&kp LSHIFT    &kp Z         &kp X         &LayTapLeft 2 C     &LayTapLeft 3 V  &HRML CAPSLOCK B            &kp RIGHT_ARROW  &HRMR CAPSLOCK N               &LayTapRight 3 M  &LayTapRight 2 COMMA  &kp DOT       &kp FSLH         &kp ENTER
+&kp C_MUTE    &kp LCTRL     &kp LEFT_ALT  &mt LEFT_SHIFT TAB  &lt 1 SPACE      &none                       &none            &none                          &lt 1 SPACE       &lt 2 BACKSPACE       &kp RGUI      &key_repeat
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
