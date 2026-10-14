@@ -44,14 +44,14 @@ layers:
   - Z
   - X
   - C
-  - {t: V, h: LAYER3}
+  - V
   - {t: B, h: '$$mdi:apple-keyboard-caps$$'}
   - $$mdi:arrow-right-bold$$
   - {t: N, h: '$$mdi:apple-keyboard-caps$$'}
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: L4GAME0, s: '?'}
+  - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
@@ -236,10 +236,10 @@ layers:
   - KP MINUS
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - AC UNDO
+  - Z
   - $$mdi:pan-down$$
   - $$mdi:pan-up$$
-  - {t: LAYER3, h: AC REDO}
+  - APP
   - '&key_repeat'
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
@@ -311,7 +311,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: L4GAME0, s: '?'}
+  - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
@@ -496,10 +496,10 @@ layers:
   - KP MINUS
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - AC UNDO
+  - Z
   - $$mdi:pan-down$$
   - $$mdi:pan-up$$
-  - {t: L7GAME3, h: AC REDO}
+  - APP
   - '&key_repeat'
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
@@ -618,25 +618,37 @@ combos:
   l: [LAYER0, LAYER2, LAYER1, LAYER3, L8STNGS]
 - p: [14, 24]
   k: $$mdi:bluetooth-off$$
-  l: [LAYER3, L8STNGS]
+  l: [L8STNGS]
 - p: [60, 61]
   k: {t: '$$mdi:backspace-reverse-outline$$', h: L7GAME3}
   l: [L4GAME0, L5GAME1, L6GAME2, L7GAME3]
 - p: [18, 31]
   k: $$mdi:mouse-scroll-wheel$$
   l: [LAYER3, L7GAME3]
-- p: [30, 31]
+- p: [15, 14]
   k: $$mdi:keyboard-tab$$
-  l: [LAYER0]
+  l: [LAYER0, LAYER2, LAYER1]
 - p: [43, 42]
   k: $$mdi:volume-high$$
   l: [LAYER0]
 - p: [42, 41]
   k: $$mdi:volume-low$$
   l: [LAYER0]
-- p: [50, 49]
+- p: [51, 7]
   k: {t: L8STNGS, h: toggle}
   l: [LAYER0, L4GAME0, L8STNGS]
 - p: [39, 5]
   k: {t: L8STNGS, h: toggle}
   l: [LAYER0, L4GAME0, L8STNGS]
+- p: [40, 41]
+  k: {t: LAYER3, h: toggle}
+  l: [LAYER0, LAYER3]
+- p: [50, 49]
+  k: {t: L4GAME0, h: toggle}
+  l: [LAYER0, L4GAME0]
+- p: [23, 24]
+  k: APP
+  l: [LAYER0, LAYER2, LAYER1, LAYER3]
+- p: [30, 31]
+  k: $$mdi:alpha-w-box$$
+  l: [LAYER0, LAYER2, LAYER1]
