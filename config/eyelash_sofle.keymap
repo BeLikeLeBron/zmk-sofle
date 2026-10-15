@@ -297,8 +297,8 @@
             layers = <0 4>;
         };
 
-        RightTab {
-            bindings = <&kp TAB>;
+        Rightdelete {
+            bindings = <&kp DEL>;
             key-positions = <23 24>;
             require-prior-idle-ms = <200>;
             layers = <0 2 1 3>;
