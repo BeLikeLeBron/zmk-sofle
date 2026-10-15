@@ -647,7 +647,7 @@ combos:
   k: {t: L4GAME0, h: toggle}
   l: [LAYER0, L4GAME0]
 - p: [23, 24]
-  k: $$mdi:keyboard-tab$$
+  k: $$mdi:backspace-reverse-outline$$
   l: [LAYER0, LAYER2, LAYER1, LAYER3]
 - p: [30, 31]
   k: $$mdi:alpha-w-box$$
