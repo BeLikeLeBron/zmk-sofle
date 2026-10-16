@@ -664,3 +664,15 @@ combos:
 - p: [42, 29]
   k: Ctl+C
   l: [LAYER0, LAYER2, LAYER1, LAYER3]
+- p: [30, 17]
+  k: PG UP
+  l: [LAYER0, LAYER2, LAYER1, LAYER3]
+- p: [30, 43]
+  k: PgDn
+  l: [LAYER0, LAYER2, LAYER1, LAYER3]
+- p: [43, 44]
+  k: AC BACK
+  l: [LAYER0, LAYER2, LAYER1, LAYER3]
+- p: [17, 18]
+  k: AC FORWARD
+  l: [LAYER0, LAYER2, LAYER1, LAYER3]
