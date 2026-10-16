@@ -344,7 +344,7 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - $$mdi:keyboard-esc$$
+  - $$mdi:play-pause$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: PgUp, h: 'AltGr+Sft+$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -594,13 +594,13 @@ combos:
   l: [LAYER0, L4GAME0]
 - p: [17, 16]
   k: $$mdi:keyboard-esc$$
-  l: [LAYER0, LAYER2, LAYER1, LAYER3]
+  l: [LAYER0, LAYER2, LAYER1, LAYER3, L4GAME0]
 - p: [21, 22]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [LAYER0, LAYER1, LAYER2, LAYER3]
+  l: [LAYER0, LAYER1, LAYER2, LAYER3, L4GAME0]
 - p: [22, 23]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [LAYER0, LAYER1, LAYER2, LAYER3]
+  l: [LAYER0, LAYER1, LAYER2, LAYER3, L4GAME0]
 - p: [55, 56]
   k: {t: '$$mdi:keyboard-return$$', h: LAYER2}
   l: [LAYER0, LAYER1, LAYER2, LAYER3]
