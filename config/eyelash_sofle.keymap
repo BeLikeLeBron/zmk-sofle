@@ -82,20 +82,6 @@
     };
 
     behaviors {
-        rsr_vol: rsr_vol {
-            compatible = "zmk,behavior-runtime-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            tap-ms = <5>;
-            cw-binding = <&kp C_VOL_UP>;
-            ccw-binding = <&kp C_VOL_DN>;
-        };
-
-        rsr_trans: rsr_trans {
-            compatible = "zmk,behavior-runtime-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            tap-ms = <0>;
-        };
-
         LayTapRight: LayTapRight {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYTAPRIGHT";
@@ -124,12 +110,13 @@
             hold-trigger-key-positions = <6 7 8 9 10 11 12 19 20 21 22 23 24 25 32 33 34 35 36 37 38 45 46 47 48 49 50 51 52 57 58 59 60 61 62 63 56 54 53 55>;
         };
 
-        rsr_scr: rsr_scr {
-            compatible = "zmk,behavior-runtime-sensor-rotate";
+        volume_encoder: volume_encoder {
+            compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
+            bindings = <&kp C_VOLUME_DOWN>, <&kp C_VOLUME_UP>;
+
             tap-ms = <100>;
-            cw-binding = <&msc SCRL_UP>;
-            ccw-binding = <&msc SCRL_DOWN>;
+            label = "VOLUME_ENCODER";
         };
     };
 
@@ -344,7 +331,8 @@
 &kp C_MUTE    &kp LCTRL     &kp LEFT_ALT  &mt LEFT_SHIFT TAB  &lt 1 SPACE      &none                       &none            &none                          &lt 1 SPACE       &lt 2 BACKSPACE       &kp RGUI      &key_repeat
             >;
 
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&volume_encoder>, <&none>;
+
             display-name = "LAYER0";
         };
 
@@ -357,7 +345,7 @@
 &trans  &trans                &trans                &trans            &trans               &trans                              &trans  &trans                                &trans                   &trans                &trans                  &trans
             >;
 
-            sensor-bindings = <&rsr_scr &rsr_trans>;
+            sensor-bindings = <&scroll_encoder>, <&none>;
 
             display-name = "LAYER1";
         };
@@ -372,7 +360,7 @@
             >;
 
             display-name = "LAYER2";
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&none>, <&none>;
         };
 
         layer3 {
@@ -385,7 +373,7 @@
             >;
 
             display-name = "LAYER3";
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&none>, <&none>;
         };
 
         layer4Gaming0 {
@@ -398,7 +386,7 @@
             >;
 
             display-name = "L4GAME0";
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&none>, <&none>;
         };
 
         layer5Gaming1 {
@@ -411,7 +399,7 @@
             >;
 
             display-name = "L5GAME1";
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&none>, <&none>;
         };
 
         layer6Gaming2 {
@@ -424,7 +412,7 @@
             >;
 
             display-name = "L6GAME2";
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&none>, <&none>;
         };
 
         layer7Gaming3 {
@@ -437,7 +425,7 @@
             >;
 
             display-name = "L7GAME3";
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&none>, <&none>;
         };
 
         layer8Settings {
@@ -450,7 +438,7 @@
             >;
 
             label = "L8STNGS";
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&none>, <&none>;
         };
     };
 };
