@@ -661,3 +661,6 @@ combos:
 - p: [50, 49]
   k: {t: LAYER3, h: toggle}
   l: [LAYER0, LAYER3]
+- p: [42, 29]
+  k: Ctl+C
+  l: [LAYER0, LAYER2, LAYER1, LAYER3]

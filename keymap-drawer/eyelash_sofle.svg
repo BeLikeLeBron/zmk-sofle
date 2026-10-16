@@ -810,6 +810,10 @@ rect.held, rect.combo.held {
 <text x="812" y="214" class="combo tap layer-activator">LAYER3</text>
 </a><text x="812" y="225" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-19">
+<rect rx="6" ry="6" x="182" y="155" width="28" height="26" class="combo"/>
+<text x="196" y="168" class="combo tap">Ctl+C</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-LAYER1">
@@ -1214,6 +1218,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
 <use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="271" y="138" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
 </g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="182" y="155" width="28" height="26" class="combo"/>
+<text x="196" y="168" class="combo tap">Ctl+C</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-LAYER2">
@@ -1603,6 +1611,10 @@ rect.held, rect.combo.held {
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
 <use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="271" y="138" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="182" y="155" width="28" height="26" class="combo"/>
+<text x="196" y="168" class="combo tap">Ctl+C</text>
 </g>
 </g>
 </g>
@@ -2043,6 +2055,10 @@ rect.held, rect.combo.held {
 <a href="#LAYER3">
 <text x="812" y="214" class="combo tap layer-activator">LAYER3</text>
 </a><text x="812" y="225" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="182" y="155" width="28" height="26" class="combo"/>
+<text x="196" y="168" class="combo tap">Ctl+C</text>
 </g>
 </g>
 </g>
