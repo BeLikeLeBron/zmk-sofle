@@ -130,7 +130,6 @@
             tap-ms = <5>;
             cw-binding = <&msc SCRL_UP>;
             ccw-binding = <&msc SCRL_DOWN>;
-            label = "RSR_SCR";
         };
     };
 
@@ -358,7 +357,7 @@
 &trans  &trans                &trans                &trans            &trans               &trans                              &trans  &trans                                &trans                   &trans                &trans                  &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rsr_scr &rsr_trans>;
 
             display-name = "LAYER1";
         };
