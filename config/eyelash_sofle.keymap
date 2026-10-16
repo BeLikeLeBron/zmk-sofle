@@ -91,10 +91,11 @@
         };
 
         rsr_scr: rsr_scr {
-            compatible = "zmk,behavior-sensor-rotate";
+            compatible = "zmk,behavior-runtime-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
             tap-ms = <100>;
+            cw-binding = <&scroll_up_macro>;
+            ccw-binding = <&scroll_up_macro>;
         };
 
         rsr_trans: rsr_trans {
@@ -329,6 +330,18 @@
 
             label = "SHIFT_MCLK";
         };
+        scroll_up_macro: scroll_up_macro {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&msc SCRL_UP>;
+};
+
+scroll_down_macro: scroll_down_macro {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&msc SCRL_DOWN>;
+};
+
     };
 
     keymap {
