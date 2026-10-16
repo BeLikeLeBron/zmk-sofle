@@ -91,11 +91,10 @@
         };
 
         rsr_scr: rsr_scr {
-            compatible = "zmk,behavior-runtime-sensor-rotate";
+            compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
             tap-ms = <100>;
-            cw-binding = <&msc SCRL_UP>;
-            ccw-binding = <&msc SCRL_DOWN>;
         };
 
         rsr_trans: rsr_trans {
