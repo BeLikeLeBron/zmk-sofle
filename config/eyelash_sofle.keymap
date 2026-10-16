@@ -358,7 +358,7 @@
 &trans  &trans                &trans                &trans            &trans               &trans                              &trans  &trans                                &trans                   &trans                &trans                  &trans
             >;
 
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&rsr_scr &rsr_trans>;
             display-name = "LAYER1";
         };
 
