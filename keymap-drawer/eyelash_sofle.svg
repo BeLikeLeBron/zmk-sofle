@@ -836,6 +836,10 @@ rect.held, rect.combo.held {
 <tspan x="280" dy="-0.6em" style="font-size: 86%">AC</tspan><tspan x="280" dy="1.2em" style="font-size: 86%">FORWARD</tspan>
 </text>
 </g>
+<g class="combo combopos-24">
+<rect rx="6" ry="6" x="238" y="50" width="28" height="26" class="combo"/>
+<text x="252" y="63" class="combo tap">Alt+F4</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-LAYER1">
@@ -1266,6 +1270,10 @@ rect.held, rect.combo.held {
 <tspan x="280" dy="-0.6em" style="font-size: 86%">AC</tspan><tspan x="280" dy="1.2em" style="font-size: 86%">FORWARD</tspan>
 </text>
 </g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="238" y="50" width="28" height="26" class="combo"/>
+<text x="252" y="63" class="combo tap">Alt+F4</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-LAYER2">
@@ -1681,6 +1689,10 @@ rect.held, rect.combo.held {
 <text x="280" y="91" class="combo tap">
 <tspan x="280" dy="-0.6em" style="font-size: 86%">AC</tspan><tspan x="280" dy="1.2em" style="font-size: 86%">FORWARD</tspan>
 </text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="238" y="50" width="28" height="26" class="combo"/>
+<text x="252" y="63" class="combo tap">Alt+F4</text>
 </g>
 </g>
 </g>
@@ -2147,6 +2159,10 @@ rect.held, rect.combo.held {
 <text x="280" y="91" class="combo tap">
 <tspan x="280" dy="-0.6em" style="font-size: 86%">AC</tspan><tspan x="280" dy="1.2em" style="font-size: 86%">FORWARD</tspan>
 </text>
+</g>
+<g class="combo combopos-16">
+<rect rx="6" ry="6" x="238" y="50" width="28" height="26" class="combo"/>
+<text x="252" y="63" class="combo tap">Alt+F4</text>
 </g>
 </g>
 </g>

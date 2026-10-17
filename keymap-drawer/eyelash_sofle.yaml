@@ -676,3 +676,6 @@ combos:
 - p: [17, 18]
   k: AC FORWARD
   l: [LAYER0, LAYER2, LAYER1, LAYER3]
+- p: [17, 4]
+  k: Alt+F4
+  l: [LAYER0, LAYER2, LAYER1, LAYER3]
