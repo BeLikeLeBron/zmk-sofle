@@ -671,10 +671,10 @@ combos:
   k: PgDn
   l: [LAYER0, LAYER2, LAYER1, LAYER3]
 - p: [43, 44]
-  k: '&mkp MB4'
+  k: AC BACK
   l: [LAYER0, LAYER2, LAYER1, LAYER3]
 - p: [17, 18]
-  k: '&mkp MB5'
+  k: AC FORWARD
   l: [LAYER0, LAYER2, LAYER1, LAYER3]
 - p: [17, 14]
   k: Alt+F4
