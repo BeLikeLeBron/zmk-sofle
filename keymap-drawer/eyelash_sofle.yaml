@@ -670,10 +670,10 @@ combos:
 - p: [30, 43]
   k: PgDn
   l: [LAYER0, LAYER2, LAYER1, LAYER3]
-- p: [43, 44]
+- p: [15, 17]
   k: AC BACK
   l: [LAYER0, LAYER2, LAYER1, LAYER3]
-- p: [17, 18]
+- p: [18, 15]
   k: AC FORWARD
   l: [LAYER0, LAYER2, LAYER1, LAYER3]
 - p: [17, 14]
