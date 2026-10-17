@@ -827,13 +827,13 @@ rect.held, rect.combo.held {
 <g class="combo combopos-22">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <text x="280" y="203" class="combo tap">
-<tspan x="280" dy="-0.6em">AC</tspan><tspan x="280" dy="1.2em">BACK</tspan>
+<tspan x="280" dy="-0.6em">&amp;mkp</tspan><tspan x="280" dy="1.2em">MB4</tspan>
 </text>
 </g>
 <g class="combo combopos-23">
 <rect rx="6" ry="6" x="266" y="78" width="28" height="26" class="combo"/>
 <text x="280" y="91" class="combo tap">
-<tspan x="280" dy="-0.6em" style="font-size: 86%">AC</tspan><tspan x="280" dy="1.2em" style="font-size: 86%">FORWARD</tspan>
+<tspan x="280" dy="-0.6em">&amp;mkp</tspan><tspan x="280" dy="1.2em">MB5</tspan>
 </text>
 </g>
 <g class="combo combopos-24">
@@ -1263,13 +1263,13 @@ rect.held, rect.combo.held {
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <text x="280" y="203" class="combo tap">
-<tspan x="280" dy="-0.6em">AC</tspan><tspan x="280" dy="1.2em">BACK</tspan>
+<tspan x="280" dy="-0.6em">&amp;mkp</tspan><tspan x="280" dy="1.2em">MB4</tspan>
 </text>
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="266" y="78" width="28" height="26" class="combo"/>
 <text x="280" y="91" class="combo tap">
-<tspan x="280" dy="-0.6em" style="font-size: 86%">AC</tspan><tspan x="280" dy="1.2em" style="font-size: 86%">FORWARD</tspan>
+<tspan x="280" dy="-0.6em">&amp;mkp</tspan><tspan x="280" dy="1.2em">MB5</tspan>
 </text>
 </g>
 <g class="combo combopos-15">
@@ -1685,13 +1685,13 @@ rect.held, rect.combo.held {
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <text x="280" y="203" class="combo tap">
-<tspan x="280" dy="-0.6em">AC</tspan><tspan x="280" dy="1.2em">BACK</tspan>
+<tspan x="280" dy="-0.6em">&amp;mkp</tspan><tspan x="280" dy="1.2em">MB4</tspan>
 </text>
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="266" y="78" width="28" height="26" class="combo"/>
 <text x="280" y="91" class="combo tap">
-<tspan x="280" dy="-0.6em" style="font-size: 86%">AC</tspan><tspan x="280" dy="1.2em" style="font-size: 86%">FORWARD</tspan>
+<tspan x="280" dy="-0.6em">&amp;mkp</tspan><tspan x="280" dy="1.2em">MB5</tspan>
 </text>
 </g>
 <g class="combo combopos-15">
@@ -2157,13 +2157,13 @@ rect.held, rect.combo.held {
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <text x="280" y="203" class="combo tap">
-<tspan x="280" dy="-0.6em">AC</tspan><tspan x="280" dy="1.2em">BACK</tspan>
+<tspan x="280" dy="-0.6em">&amp;mkp</tspan><tspan x="280" dy="1.2em">MB4</tspan>
 </text>
 </g>
 <g class="combo combopos-15">
 <rect rx="6" ry="6" x="266" y="78" width="28" height="26" class="combo"/>
 <text x="280" y="91" class="combo tap">
-<tspan x="280" dy="-0.6em" style="font-size: 86%">AC</tspan><tspan x="280" dy="1.2em" style="font-size: 86%">FORWARD</tspan>
+<tspan x="280" dy="-0.6em">&amp;mkp</tspan><tspan x="280" dy="1.2em">MB5</tspan>
 </text>
 </g>
 <g class="combo combopos-16">
